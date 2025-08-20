@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{750BFAF4-F9CD-4C05-B858-03023A5BD969}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.26100.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.26100.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>5.12_msvc2017_64</QtInstall>
+    <QtModules>core;opengl;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>5.12_msvc2017_64</QtInstall>
+    <QtModules>core;opengl;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <IncludePath>..\3rd\glm-1.0.1;..\3rd\assimp\include;..\3rd\QtNodes\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\3rd\assimp\lib\Debug;..\3rd\QtNodes\lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <IncludePath>..\3rd\glm-1.0.1;..\3rd\assimp;..\3rd\QtNodes\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\3rd\assimp\lib\Release;..\3rd\QtNodes\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>assimp-vc141-mtd.lib;QtNodes.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\3rd\assimp\bin\Debug;..\3rd\QtNodes\bin\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NODE_EDITOR_STATIC</PreprocessorDefinitions>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Link>
+      <AdditionalDependencies>assimp-vc141-mt.lib;QtNodes.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\3rd\assimp\bin\Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>NODE_EDITOR_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="NodeData\RECreateShaderEditor.cpp" />
+    <ClCompile Include="NodeData\RECreateShaderModel.cpp" />
+    <ClCompile Include="NodeData\RECreateTextureModel.cpp" />
+    <ClCompile Include="NodeData\RECreateVAOModel.cpp" />
+    <ClCompile Include="NodeData\RECreateVBOModel.cpp" />
+    <ClCompile Include="NodeData\RECreateVBONode.hpp" />
+    <ClCompile Include="NodeData\RECreateVertexDataNode.cpp" />
+    <ClCompile Include="NodeData\RECreateVertexModel.cpp" />
+    <ClCompile Include="NodeData\REDrawArraysEditor.cpp" />
+    <ClCompile Include="NodeData\REFileDisplayDataModel.cpp" />
+    <ClCompile Include="NodeData\REFloatArraySourceDataModel.cpp" />
+    <ClCompile Include="NodeData\REFloatData.hpp" />
+    <ClCompile Include="NodeData\REFloatSourceDataModel.cpp" />
+    <ClCompile Include="NodeData\REFPSCamera.cpp" />
+    <ClCompile Include="NodeData\REGLClearColorModel.cpp" />
+    <ClCompile Include="NodeData\REGLDrawArraysMode.cpp" />
+    <ClCompile Include="NodeData\REGLDrawArraysNode.hpp" />
+    <ClCompile Include="NodeData\REImageLabel.cpp" />
+    <ClCompile Include="NodeData\REImageLoaderModel.cpp" />
+    <ClCompile Include="NodeData\REIntSourceDataModel.cpp" />
+    <ClCompile Include="NodeData\RELoopEndModel.cpp" />
+    <ClCompile Include="NodeData\RELoopModel.cpp" />
+    <ClCompile Include="NodeData\RELoopNode.cpp" />
+    <ClCompile Include="NodeData\REMat4Data.hpp" />
+    <ClCompile Include="NodeData\REOpenGLContext.cpp" />
+    <ClCompile Include="NodeData\REOpenGLControlWidget.cpp" />
+    <ClCompile Include="NodeData\REOpenGLDisplayModel.cpp" />
+    <ClCompile Include="NodeData\REOpenGLWidget.cpp" />
+    <ClCompile Include="NodeData\REProjectionModel.cpp" />
+    <ClCompile Include="NodeData\RERotateModel.cpp" />
+    <ClCompile Include="NodeData\REScaleModel.cpp" />
+    <ClCompile Include="NodeData\RESetUniformIntModel.cpp" />
+    <ClCompile Include="NodeData\RESetUniformMat4Model.cpp" />
+    <ClCompile Include="NodeData\RESetUniformVec3Model.cpp" />
+    <ClCompile Include="NodeData\RESinModel.cpp" />
+    <ClCompile Include="NodeData\RETextDisplayDataModel.cpp" />
+    <ClCompile Include="NodeData\RETextSourceDataModel.cpp" />
+    <ClCompile Include="NodeData\RETimerModel.cpp" />
+    <ClCompile Include="NodeData\RETranslateModel.cpp" />
+    <ClCompile Include="NodeData\REUseShaderModel.cpp" />
+    <ClCompile Include="NodeData\REUseTextureModel.cpp" />
+    <ClCompile Include="NodeData\REValueSetTimeEditor.cpp" />
+    <ClCompile Include="NodeData\REVAOAttribEditor.cpp" />
+    <ClCompile Include="NodeData\REVAOAttribModel.cpp" />
+    <ClCompile Include="NodeData\REVec3ComputeModel.cpp" />
+    <ClCompile Include="NodeData\REVec3Data.hpp" />
+    <ClCompile Include="NodeData\REVec3Editor.cpp" />
+    <ClCompile Include="NodeData\REVec3SourceDataModel.cpp">
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ClCompile Include="NodeData\REViewModel.cpp" />
+    <ClCompile Include="REI3DObject.cpp" />
+    <ClCompile Include="REIDrawObject.cpp" />
+    <ClCompile Include="REMesh.cpp" />
+    <ClCompile Include="REObject.cpp" />
+    <ClCompile Include="REShader.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <QtRcc Include="RenderEditor.qrc" />
+    <QtUic Include="NodeData\RECreateShaderEditor.ui" />
+    <QtUic Include="NodeData\REDrawArraysEditor.ui" />
+    <QtUic Include="NodeData\REOpenGLControlWidget.ui" />
+    <QtUic Include="NodeData\REValueSetTimeEditor.ui" />
+    <QtUic Include="NodeData\REVAOAttribEditor.ui" />
+    <QtUic Include="NodeData\REVec3Editor.ui" />
+    <QtUic Include="RenderEditor.ui" />
+    <QtMoc Include="RenderEditor.h" />
+    <ClCompile Include="RenderEditor.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NodeData\RELoopEndModel.h" />
+    <ClInclude Include="NodeData\RELoopEndNode.hpp" />
+    <ClInclude Include="NodeData\REScaleModel.h" />
+    <ClInclude Include="NodeData\RESetUniformVec3Model.h" />
+    <ClInclude Include="NodeData\RESinModel.h" />
+    <ClInclude Include="循环与分支实现说明.h" />
+    <QtMoc Include="NodeData\REVec3Editor.h" />
+    <QtMoc Include="NodeData\REOpenGLWidget.h" />
+    <QtMoc Include="NodeData\RECreateShaderEditor.h" />
+    <QtMoc Include="NodeData\REImageLabel.h" />
+    <ClInclude Include="NodeData\RECreateTextureModel.h" />
+    <ClInclude Include="NodeData\RECreateTextureNode.hpp" />
+    <ClInclude Include="NodeData\REFPSCamera.h" />
+    <ClInclude Include="NodeData\REImageLoaderModel.h" />
+    <QtMoc Include="NodeData\REOpenGLControlWidget.h" />
+    <ClInclude Include="NodeData\RELoopModel.h" />
+    <ClInclude Include="NodeData\RELoopNode.hpp" />
+    <ClInclude Include="NodeData\REOpenGLModel.hpp" />
+    <ClInclude Include="NodeData\REPixmapData.hpp" />
+    <ClInclude Include="NodeData\RECreateShaderModel.h" />
+    <ClInclude Include="NodeData\RECreateShaderNode.hpp" />
+    <ClInclude Include="NodeData\RECreateVAOModel.h" />
+    <ClInclude Include="NodeData\RECreateVAONode.hpp" />
+    <ClInclude Include="NodeData\RECreateVBOModel.h" />
+    <ClInclude Include="NodeData\RECreateVertexDataNode.h" />
+    <ClInclude Include="NodeData\RECreateVertexModel.h" />
+    <QtMoc Include="NodeData\REDrawArraysEditor.h" />
+    <ClInclude Include="NodeData\REFileDisplayDataModel.h" />
+    <ClInclude Include="NodeData\REFloatArrayData.hpp" />
+    <ClInclude Include="NodeData\REFloatArraySourceDataModel.h" />
+    <ClInclude Include="NodeData\REFloatSourceDataModel.h" />
+    <ClInclude Include="NodeData\REGLClearColorModel.h" />
+    <ClInclude Include="NodeData\REGLClearColorNode.hpp" />
+    <ClInclude Include="NodeData\REGLDrawArraysMode.h" />
+    <ClInclude Include="NodeData\REIntData.hpp" />
+    <ClInclude Include="NodeData\REIntSourceDataModel.h" />
+    <ClInclude Include="NodeData\REOpenGLContext.h" />
+    <ClInclude Include="NodeData\REOpenGLNode.hpp" />
+    <ClInclude Include="NodeData\REOpenGLDisplayModel.h" />
+    <ClInclude Include="NodeData\REProjectionModel.h" />
+    <ClInclude Include="NodeData\RERotateModel.h" />
+    <ClInclude Include="NodeData\RESetUniformIntModel.h" />
+    <ClInclude Include="NodeData\RESetUniformMat4Model.h" />
+    <ClInclude Include="NodeData\RESetUniformValueNode.hpp" />
+    <ClInclude Include="NodeData\REStringData.hpp" />
+    <QtMoc Include="NodeData\REVAOAttribEditor.h" />
+    <ClInclude Include="NodeData\RETextData.hpp" />
+    <ClInclude Include="NodeData\RETextDisplayDataModel.h" />
+    <ClInclude Include="NodeData\RETextSourceDataModel.h" />
+    <ClInclude Include="NodeData\RETimerModel.h" />
+    <ClInclude Include="NodeData\RETranslateModel.h" />
+    <ClInclude Include="NodeData\REUseShaderModel.h" />
+    <ClInclude Include="NodeData\REUseShaderNode.hpp" />
+    <ClInclude Include="NodeData\REUseTextureModel.h" />
+    <ClInclude Include="NodeData\REUseTextureNode.hpp" />
+    <QtMoc Include="NodeData\REValueSetTimeEditor.h" />
+    <ClInclude Include="NodeData\REVAOAttribModel.h" />
+    <ClInclude Include="NodeData\REVAOAttribNode.hpp" />
+    <ClInclude Include="NodeData\REVec3CrossModel.hpp" />
+    <ClInclude Include="NodeData\REVec3ComputeModel.h" />
+    <ClInclude Include="NodeData\REVec3SourceDataModel.h" />
+    <ClInclude Include="NodeData\REViewModel.h" />
+    <ClInclude Include="REBaseType.h" />
+    <ClInclude Include="REI3DObject.h" />
+    <ClInclude Include="REIDrawObject.h" />
+    <ClInclude Include="REMesh.h" />
+    <ClInclude Include="REObject.h" />
+    <ClInclude Include="REObjectStruct.h" />
+    <ClInclude Include="REShader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NodeData\注意事项.readme" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

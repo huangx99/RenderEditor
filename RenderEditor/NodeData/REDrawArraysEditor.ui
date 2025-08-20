@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>REDrawArraysEditorClass</class>
+ <widget class="QWidget" name="REDrawArraysEditorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>REDrawArraysEditor</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>绘制模式</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="comboBox_mode">
+     <item>
+      <property name="text">
+       <string>GL_POINTS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_LINES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_LINE_LOOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_LINE_STRIP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_TRIANGLES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_TRIANGLE_STRIP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_TRIANGLE_FAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_QUADS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_QUAD_STRIP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_POLYGON</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>顶点数组起始位</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QSpinBox" name="spinBox_start"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>顶点数</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QSpinBox" name="spinBox_pointCount">
+     <property name="maximum">
+      <number>999999999</number>
+     </property>
+     <property name="value">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

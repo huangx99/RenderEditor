@@ -1,0 +1,595 @@
+{
+    "connections": [
+        {
+            "inPortIndex": 1,
+            "intNodeId": 0,
+            "outNodeId": 2,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 3,
+            "outNodeId": 4,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 19,
+            "outNodeId": 21,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 15,
+            "outNodeId": 17,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 3,
+            "outNodeId": 4,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 6,
+            "outNodeId": 4,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 4,
+            "outNodeId": 0,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 25,
+            "outNodeId": 5,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 4,
+            "outNodeId": 5,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 7,
+            "outNodeId": 3,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 29,
+            "outNodeId": 24,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 13,
+            "outNodeId": 14,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 9,
+            "outNodeId": 7,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 8,
+            "outNodeId": 7,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 8,
+            "outNodeId": 7,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 9,
+            "outNodeId": 11,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 12,
+            "outNodeId": 10,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 28,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 9,
+            "outNodeId": 12,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 6,
+            "outNodeId": 9,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 30,
+            "outNodeId": 28,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 12,
+            "outNodeId": 13,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 15,
+            "outNodeId": 8,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 24,
+            "outNodeId": 25,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 9,
+            "outNodeId": 15,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 15,
+            "outNodeId": 16,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 15,
+            "outNodeId": 7,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 27,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 28,
+            "outNodeId": 27,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 30,
+            "outNodeId": 19,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 30,
+            "outNodeId": 26,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 30,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 28,
+            "outNodeId": 20,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 28,
+            "outNodeId": 23,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 24,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 22,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 27,
+            "outNodeId": 29,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 22,
+            "outNodeId": 30,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 25,
+            "outNodeId": 6,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 1,
+            "outNodeId": 22,
+            "outPortIndex": 0
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "glClearColor"
+            },
+            "position": {
+                "x": -604.1006877739401,
+                "y": -636.4906189965462
+            }
+        },
+        {
+            "id": 8,
+            "internal-data": {
+                "model-name": "useShader"
+            },
+            "position": {
+                "x": 1382.5105919999996,
+                "y": -187.61932799999994
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "model-name": "OpenGL窗口"
+            },
+            "position": {
+                "x": 2352.8101522752895,
+                "y": 235.58364298835107
+            }
+        },
+        {
+            "id": 2,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": -682.515208218524,
+                "y": -797.2751432138147
+            }
+        },
+        {
+            "id": 3,
+            "internal-data": {
+                "byteSize": 12,
+                "count": 3,
+                "location": 0,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 0,
+                "type": 5126
+            },
+            "position": {
+                "x": 14.800000000000239,
+                "y": -152.92799999999988
+            }
+        },
+        {
+            "id": 4,
+            "internal-data": {
+                "model-name": "createVertex"
+            },
+            "position": {
+                "x": -190.81599999999986,
+                "y": 241.36799999999994
+            }
+        },
+        {
+            "id": 5,
+            "internal-data": {
+                "model-name": "floatArray",
+                "value": "-0.5, -0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5,  0.5, -0.5,\n 0.5,  0.5, -0.5,\n-0.5,  0.5, -0.5,\n-0.5, -0.5, -0.5,\n\n-0.5, -0.5,  0.5,\n 0.5, -0.5,  0.5,\n 0.5,  0.5,  0.5,\n 0.5,  0.5,  0.5,\n-0.5,  0.5,  0.5,\n-0.5, -0.5,  0.5,\n\n-0.5,  0.5,  0.5,\n-0.5,  0.5, -0.5,\n-0.5, -0.5, -0.5,\n-0.5, -0.5, -0.5,\n-0.5, -0.5,  0.5,\n-0.5,  0.5,  0.5,\n\n 0.5,  0.5,  0.5,\n 0.5,  0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5, -0.5,  0.5,\n 0.5,  0.5,  0.5,\n\n-0.5, -0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5, -0.5,  0.5,\n 0.5, -0.5,  0.5,\n-0.5, -0.5,  0.5,\n-0.5, -0.5, -0.5,\n\n-0.5,  0.5, -0.5,\n 0.5,  0.5, -0.5,\n 0.5,  0.5,  0.5,\n 0.5,  0.5,  0.5,\n-0.5,  0.5,  0.5,\n-0.5,  0.5, -0.5,\n"
+            },
+            "position": {
+                "x": -982.3711952175818,
+                "y": 776.9439609971741
+            }
+        },
+        {
+            "id": 6,
+            "internal-data": {
+                "mode": 4,
+                "model-name": "glDrawArrays",
+                "pointCount": 36,
+                "startIndex": 0
+            },
+            "position": {
+                "x": 1270.4878079999999,
+                "y": 153.61228799999998
+            }
+        },
+        {
+            "id": 7,
+            "internal-data": {
+                "fragmentShaderPath": "D:/0001code/RenderEditor/shaderCode/light/lightPort.frag",
+                "model-name": "createShader",
+                "vertexShaderPath": "D:/0001code/RenderEditor/shaderCode/light/lightPort.vert"
+            },
+            "position": {
+                "x": 547.7621760000001,
+                "y": -381.92947199999986
+            }
+        },
+        {
+            "id": 9,
+            "internal-data": {
+                "model-name": "uniform_mat4",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 835.6582389952903,
+                "y": 87.73330084772371
+            }
+        },
+        {
+            "id": 10,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 2,
+                "y": 0,
+                "z": -9
+            },
+            "position": {
+                "x": 421.5000255698586,
+                "y": 557.1224442574568
+            }
+        },
+        {
+            "id": 11,
+            "internal-data": {
+                "model-name": "string",
+                "value": "model"
+            },
+            "position": {
+                "x": 194.39999999999998,
+                "y": 240.47999999999993
+            }
+        },
+        {
+            "id": 12,
+            "internal-data": {
+                "model-name": "translate"
+            },
+            "position": {
+                "x": 573.8399999999998,
+                "y": 215.99999999999994
+            }
+        },
+        {
+            "id": 13,
+            "internal-data": {
+                "model-name": "Scale"
+            },
+            "position": {
+                "x": 165.98422941178745,
+                "y": 367.4895424935558
+            }
+        },
+        {
+            "id": 14,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "position": {
+                "x": -2.741339505785106,
+                "y": 546.5162088160164
+            }
+        },
+        {
+            "id": 15,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 0
+            },
+            "position": {
+                "x": 865.2517194348507,
+                "y": -170.4283689795919
+            }
+        },
+        {
+            "id": 16,
+            "internal-data": {
+                "model-name": "string",
+                "value": "color"
+            },
+            "position": {
+                "x": 530.9499187441131,
+                "y": -107.06397538461536
+            }
+        },
+        {
+            "id": 17,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "position": {
+                "x": 441.3657760753532,
+                "y": -24.034769984301402
+            }
+        },
+        {
+            "id": 19,
+            "internal-data": {
+                "model-name": "translate"
+            },
+            "position": {
+                "x": 1014.1114563186673,
+                "y": 1592.6247728677952
+            }
+        },
+        {
+            "id": 20,
+            "internal-data": {
+                "model-name": "string",
+                "value": "color"
+            },
+            "position": {
+                "x": 971.2213750627805,
+                "y": 1269.5607974831803
+            }
+        },
+        {
+            "id": 21,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": -1,
+                "y": 0,
+                "z": -1
+            },
+            "position": {
+                "x": 652.013489298259,
+                "y": 1765.5038272351424
+            }
+        },
+        {
+            "id": 22,
+            "internal-data": {
+                "mode": 4,
+                "model-name": "glDrawArrays",
+                "pointCount": 36,
+                "startIndex": 0
+            },
+            "position": {
+                "x": 1710.7592643186686,
+                "y": 1530.2370608677954
+            }
+        },
+        {
+            "id": 23,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.8999999761581421,
+                "y": 0,
+                "z": 0.30000001192092896
+            },
+            "position": {
+                "x": 881.6372323940207,
+                "y": 1352.5900028834942
+            }
+        },
+        {
+            "id": 24,
+            "internal-data": {
+                "byteSize": 12,
+                "count": 3,
+                "location": 0,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 0,
+                "type": 5126
+            },
+            "position": {
+                "x": 391.707062723691,
+                "y": 1072.9332156935413
+            }
+        },
+        {
+            "id": 25,
+            "internal-data": {
+                "model-name": "createVertex"
+            },
+            "position": {
+                "x": 87.7670036970035,
+                "y": 1425.7146129933842
+            }
+        },
+        {
+            "id": 26,
+            "internal-data": {
+                "model-name": "string",
+                "value": "model"
+            },
+            "position": {
+                "x": 634.6714563186672,
+                "y": 1617.1047728677952
+            }
+        },
+        {
+            "id": 27,
+            "internal-data": {
+                "model-name": "useShader"
+            },
+            "position": {
+                "x": 1822.7820483186679,
+                "y": 1189.0054448677956
+            }
+        },
+        {
+            "id": 28,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 0
+            },
+            "position": {
+                "x": 1305.523175753518,
+                "y": 1206.1964038882036
+            }
+        },
+        {
+            "id": 29,
+            "internal-data": {
+                "fragmentShaderPath": "D:/0001code/RenderEditor/shaderCode/light/cube.frag",
+                "model-name": "createShader",
+                "vertexShaderPath": "D:/0001code/RenderEditor/shaderCode/light/cube.vert"
+            },
+            "position": {
+                "x": 1074.706141826585,
+                "y": 855.4001963014992
+            }
+        },
+        {
+            "id": 30,
+            "internal-data": {
+                "model-name": "uniform_mat4",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 1275.9296953139578,
+                "y": 1464.3580737155191
+            }
+        }
+    ]
+}

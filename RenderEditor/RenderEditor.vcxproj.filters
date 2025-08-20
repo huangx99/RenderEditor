@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="01程序入口">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="02主界面">
+      <UniqueIdentifier>{2257fffc-4c08-4f68-b8d9-b905cda80fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04资源">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="05物体">
+      <UniqueIdentifier>{5c33b44d-ed65-4a1b-9a0c-c6c2bff4b25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05物体\a基础物体">
+      <UniqueIdentifier>{8cc7f706-57d5-4489-a83b-f7a7834a9852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05物体\a基础物体\绘制接口">
+      <UniqueIdentifier>{9c65f20a-dff5-4ed3-b4ea-6782f08e9933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05物体\a基础物体\三维物体接口">
+      <UniqueIdentifier>{80a09669-9137-4efa-934b-754394f91a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05物体\a基础物体\三维网格">
+      <UniqueIdentifier>{76f9a299-833b-4a3a-a05a-56d8fcdb8c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05物体\a基础物体\结构体">
+      <UniqueIdentifier>{173a5ed2-0b68-4b51-bf9f-c9664d59f53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00包装">
+      <UniqueIdentifier>{2abb308b-7854-4880-8d75-db680f46e9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100资源读取">
+      <UniqueIdentifier>{e636988a-6a68-4faf-8afd-d61c48799459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100资源读取\图片">
+      <UniqueIdentifier>{4d6f847f-c07f-4d86-84c5-46c61b6265b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06着色器">
+      <UniqueIdentifier>{981d0ad8-cc4a-489a-affd-8bdeff6f5e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05物体\a基础物体\物体类">
+      <UniqueIdentifier>{a2caa870-8134-4f3f-b96d-5b700af57e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展">
+      <UniqueIdentifier>{bf90aca9-77b5-4a15-b7dd-bb0ee7b34436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据">
+      <UniqueIdentifier>{07656724-00eb-496a-aa6b-30ab87ad64b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型">
+      <UniqueIdentifier>{9827f335-e7f0-47d7-aba8-08c330e8a432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\2_节点数据编辑器">
+      <UniqueIdentifier>{4dccfc0b-e553-4c63-b197-804f19001ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\2_节点数据编辑器\三维向量">
+      <UniqueIdentifier>{a4c226cf-ac49-49fb-9ee6-a910d5b615e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\2_节点数据编辑器\opengl显示器">
+      <UniqueIdentifier>{211feca8-f4fd-4a62-8f2c-5a24a99a9437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\三维向量">
+      <UniqueIdentifier>{907a8a4b-2d87-4f5a-9926-412de1f13877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\三维向量">
+      <UniqueIdentifier>{84493b88-17b5-4a62-84fb-45b39d6693ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\opengl">
+      <UniqueIdentifier>{90c75e5c-9499-4af1-9ff1-8d479a6617dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\三维向量\运算">
+      <UniqueIdentifier>{6cb0b2e4-f5a9-4526-a18c-ecf69f8655df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\三维向量\运算\基类">
+      <UniqueIdentifier>{e8f5a918-3460-4aaf-93c7-eb71693dece2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\三维向量\运算\点乘">
+      <UniqueIdentifier>{3bcb5d1a-8f2e-4ac4-86dd-6919c83f6858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点">
+      <UniqueIdentifier>{c8b32799-13c6-44e6-b5fe-268b8216dc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\状态节点基类">
+      <UniqueIdentifier>{81e25d66-f4f9-4c56-b96d-a814604c1961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\glClearColor节点">
+      <UniqueIdentifier>{e79fffef-3ad9-473c-b90d-528954a01621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\字符串类型">
+      <UniqueIdentifier>{24b4ad60-11d9-4480-bd61-0ac225679032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\浮点数组">
+      <UniqueIdentifier>{8362da6f-d3cb-4eaf-8621-ae9d67102caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\整型">
+      <UniqueIdentifier>{e9199f36-c27a-41ab-a665-292b1d0dfbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\浮点型">
+      <UniqueIdentifier>{b08f2f67-ca1e-4ac0-8d37-9f2e68ce68d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\OpenGL数据上下文">
+      <UniqueIdentifier>{e844aaa0-6cb3-4b06-9a9f-c89b9c7e48dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\VAO描述">
+      <UniqueIdentifier>{731c3144-f968-4a5e-8ef1-466d6a4f7cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\顶点数据创建">
+      <UniqueIdentifier>{e4e65987-0157-48f7-87cf-8230b074ff8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\VAO创建%28弃用%29">
+      <UniqueIdentifier>{982f37fa-9756-47ab-9065-d35e0d06cf1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\VBO创建%28弃用%29">
+      <UniqueIdentifier>{f40bfc28-98d6-421d-ae4d-38d7c3c41075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\浮点数组">
+      <UniqueIdentifier>{9d5edd7f-6134-4205-8f87-93acea818d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点">
+      <UniqueIdentifier>{ae3c6f96-0476-41e6-8148-72efaf3221a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader">
+      <UniqueIdentifier>{f9320493-7595-4f18-bd3f-e82a235fe53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\创建">
+      <UniqueIdentifier>{6fd35251-3625-45a0-8ee2-73f75bb459cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\加载">
+      <UniqueIdentifier>{ecf84e8b-2460-403d-9276-531b4a4b7b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\text">
+      <UniqueIdentifier>{1d4f275e-5903-4ae9-8827-a4bf1baea288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置">
+      <UniqueIdentifier>{c55717eb-1827-4f9e-a849-ba446c7360c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\int">
+      <UniqueIdentifier>{3e3d5344-1066-4916-a8ef-3b1b631a7225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\float">
+      <UniqueIdentifier>{2752f5fb-d680-442b-927e-cefbdaeb3f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\vec3">
+      <UniqueIdentifier>{36805430-2796-4469-8b47-37519e008f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\vec4">
+      <UniqueIdentifier>{85cf17f8-97bf-4153-9dd5-475d0be0e7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\mat4x4">
+      <UniqueIdentifier>{202cd73b-53b0-45ae-93d6-81faa9285862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\基类">
+      <UniqueIdentifier>{6bff4386-0b11-4386-a3ae-b8e5a6ba0774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\int">
+      <UniqueIdentifier>{0a8d996f-653e-406c-b033-fbeae120b0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\float">
+      <UniqueIdentifier>{fe293a3c-fd08-434b-9d65-1a0692570cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\text">
+      <UniqueIdentifier>{4732edae-bddd-4374-a873-124c642a48b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\图片">
+      <UniqueIdentifier>{db452f36-6853-4173-9134-0d1b3690f3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\图片">
+      <UniqueIdentifier>{0fe781b3-8258-44a7-9d64-f35f8c148929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\2_节点数据编辑器\图片">
+      <UniqueIdentifier>{64872fe2-46d8-45e1-b537-827c149af88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\纹理">
+      <UniqueIdentifier>{4109c9ba-871e-4ba8-819a-336605a6878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\纹理\创建">
+      <UniqueIdentifier>{3b776acd-c8e5-4bb6-9466-78f390a0cdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\纹理\使用">
+      <UniqueIdentifier>{1a054eb6-6821-4659-bd04-8007953827c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\值设置次数编辑">
+      <UniqueIdentifier>{fc456e26-6224-454c-9f8d-50033b934aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\2_节点数据编辑器\opengl显示器\显示器框架窗口">
+      <UniqueIdentifier>{0fec8d80-4192-4cff-9173-acea080f3e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\0_节点数据\mat4%2a4">
+      <UniqueIdentifier>{eaa219b4-22c9-46f5-b830-28991ac0371b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\变换">
+      <UniqueIdentifier>{43f665a1-7af6-4ec9-9e2b-99a0327f48b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\变换\translate">
+      <UniqueIdentifier>{e8bfa176-5f85-4236-aa4c-d3709608a59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\变换\rotate">
+      <UniqueIdentifier>{6119803a-669c-4e55-8be1-0036dc67fde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\变换\projection">
+      <UniqueIdentifier>{6bf93af3-b28c-49cf-a12e-d88f17542b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\变换\view">
+      <UniqueIdentifier>{a4a542dc-945a-4f56-b337-e07e7f751fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\4_相机">
+      <UniqueIdentifier>{229c269a-6131-462d-89ff-6ee9c12b35f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\00值设置注意事项">
+      <UniqueIdentifier>{33f1969b-4a64-42f1-86c2-d2fa6560477f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\5_Timer">
+      <UniqueIdentifier>{0020fc8a-7e8b-483b-8f47-98fca470e4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\0_流程控制">
+      <UniqueIdentifier>{e7505fa7-a769-429a-8623-4bfeac97ac2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环">
+      <UniqueIdentifier>{753cefee-e13e-47b2-be10-f326868d0ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\计算">
+      <UniqueIdentifier>{50fdcb70-389a-4de3-a162-db9c8f289f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\计算\sin">
+      <UniqueIdentifier>{bc6ac960-7a3b-4c59-b717-b5f5f2fde3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07节点编辑器扩展\1_节点模型\变换\scale">
+      <UniqueIdentifier>{547afbde-88fc-4a19-9b3e-aeec9c28a459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="RenderEditor.qrc">
+      <Filter>04资源</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>01程序入口</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEditor.cpp">
+      <Filter>02主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="REIDrawObject.cpp">
+      <Filter>05物体\a基础物体\绘制接口</Filter>
+    </ClCompile>
+    <ClCompile Include="REI3DObject.cpp">
+      <Filter>05物体\a基础物体\三维物体接口</Filter>
+    </ClCompile>
+    <ClCompile Include="REMesh.cpp">
+      <Filter>05物体\a基础物体\三维网格</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>100资源读取\图片</Filter>
+    </ClCompile>
+    <ClCompile Include="REShader.cpp">
+      <Filter>06着色器</Filter>
+    </ClCompile>
+    <ClCompile Include="REObject.cpp">
+      <Filter>05物体\a基础物体\物体类</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REVec3Data.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\三维向量</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REOpenGLWidget.cpp">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\opengl显示器</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REVec3Editor.cpp">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\三维向量</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REVec3SourceDataModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\三维向量</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REOpenGLDisplayModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REVec3ComputeModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\三维向量\运算\基类</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REGLClearColorModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glClearColor节点</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REOpenGLContext.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\OpenGL数据上下文</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateVBOModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VBO创建%28弃用%29</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateVBONode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VBO创建%28弃用%29</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateVAOModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO创建%28弃用%29</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REVAOAttribModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO描述</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateVertexDataNode.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\顶点数据创建</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateVertexModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\顶点数据创建</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REFloatData.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\浮点型</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REFloatArraySourceDataModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\浮点数组</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REVAOAttribEditor.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO描述</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REDrawArraysEditor.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REGLDrawArraysMode.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REGLDrawArraysNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RETextDisplayDataModel.cpp">
+      <Filter>07节点编辑器扩展\0_节点数据\text</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RETextSourceDataModel.cpp">
+      <Filter>07节点编辑器扩展\0_节点数据\text</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateShaderEditor.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\创建</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateShaderModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\创建</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REUseShaderModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\加载</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RESetUniformIntModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\int</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REIntSourceDataModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\int</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REFloatSourceDataModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\float</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REFileDisplayDataModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\text</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REImageLoaderModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\图片</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REImageLabel.cpp">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\图片</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RECreateTextureModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\纹理\创建</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REUseTextureModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\纹理\使用</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REValueSetTimeEditor.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\值设置次数编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REOpenGLControlWidget.cpp">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\opengl显示器\显示器框架窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RETranslateModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REMat4Data.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\mat4%2a4</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RERotateModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REProjectionModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\projection</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REViewModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\view</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RESetUniformMat4Model.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\mat4x4</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REFPSCamera.cpp">
+      <Filter>07节点编辑器扩展\4_相机</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RETimerModel.cpp">
+      <Filter>07节点编辑器扩展\5_Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RELoopModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RELoopEndModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RESinModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\计算\sin</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RELoopNode.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\RESetUniformVec3Model.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\vec3</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData\REScaleModel.cpp">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\scale</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="RenderEditor.h">
+      <Filter>02主界面</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REOpenGLWidget.h">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\opengl显示器</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REVec3Editor.h">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\三维向量</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REVAOAttribEditor.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO描述</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REDrawArraysEditor.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\RECreateShaderEditor.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\创建</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REImageLabel.h">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\图片</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REValueSetTimeEditor.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\值设置次数编辑</Filter>
+    </QtMoc>
+    <QtMoc Include="NodeData\REOpenGLControlWidget.h">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\opengl显示器\显示器框架窗口</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="RenderEditor.ui">
+      <Filter>02主界面</Filter>
+    </QtUic>
+    <QtUic Include="NodeData\REVec3Editor.ui">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\三维向量</Filter>
+    </QtUic>
+    <QtUic Include="NodeData\REVAOAttribEditor.ui">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO描述</Filter>
+    </QtUic>
+    <QtUic Include="NodeData\REDrawArraysEditor.ui">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点</Filter>
+    </QtUic>
+    <QtUic Include="NodeData\RECreateShaderEditor.ui">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\创建</Filter>
+    </QtUic>
+    <QtUic Include="NodeData\REValueSetTimeEditor.ui">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\值设置次数编辑</Filter>
+    </QtUic>
+    <QtUic Include="NodeData\REOpenGLControlWidget.ui">
+      <Filter>07节点编辑器扩展\2_节点数据编辑器\opengl显示器\显示器框架窗口</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="REIDrawObject.h">
+      <Filter>05物体\a基础物体\绘制接口</Filter>
+    </ClInclude>
+    <ClInclude Include="REI3DObject.h">
+      <Filter>05物体\a基础物体\三维物体接口</Filter>
+    </ClInclude>
+    <ClInclude Include="REObjectStruct.h">
+      <Filter>05物体\a基础物体\结构体</Filter>
+    </ClInclude>
+    <ClInclude Include="REBaseType.h">
+      <Filter>00包装</Filter>
+    </ClInclude>
+    <ClInclude Include="REMesh.h">
+      <Filter>05物体\a基础物体\三维网格</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>100资源读取\图片</Filter>
+    </ClInclude>
+    <ClInclude Include="REShader.h">
+      <Filter>06着色器</Filter>
+    </ClInclude>
+    <ClInclude Include="REObject.h">
+      <Filter>05物体\a基础物体\物体类</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REVec3SourceDataModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\三维向量</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REOpenGLDisplayModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REVec3ComputeModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\三维向量\运算\基类</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REVec3CrossModel.hpp">
+      <Filter>07节点编辑器扩展\1_节点模型\三维向量\运算\点乘</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REOpenGLNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\状态节点基类</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REGLClearColorNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glClearColor节点</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REGLClearColorModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glClearColor节点</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REStringData.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\字符串类型</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REOpenGLContext.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\OpenGL数据上下文</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REFloatArrayData.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\浮点数组</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REIntData.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\整型</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateVBOModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VBO创建%28弃用%29</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateVAONode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO创建%28弃用%29</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateVAOModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO创建%28弃用%29</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REVAOAttribNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO描述</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REVAOAttribModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\VAO描述</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateVertexDataNode.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\顶点数据创建</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateVertexModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\顶点数据创建</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REFloatArraySourceDataModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\浮点数组</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REGLDrawArraysMode.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\glDrawArrays绘制节点</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateShaderNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\创建</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REUseShaderNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\加载</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RETextData.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\text</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RETextSourceDataModel.h">
+      <Filter>07节点编辑器扩展\0_节点数据\text</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RETextDisplayDataModel.h">
+      <Filter>07节点编辑器扩展\0_节点数据\text</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateShaderModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\创建</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REUseShaderModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\加载</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RESetUniformValueNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RESetUniformIntModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\int</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REIntSourceDataModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\int</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REFloatSourceDataModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\float</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REFileDisplayDataModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\text</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REPixmapData.hpp">
+      <Filter>07节点编辑器扩展\0_节点数据\图片</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REImageLoaderModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\图片</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateTextureNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\纹理\创建</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RECreateTextureModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\纹理\创建</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REUseTextureNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\纹理\使用</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REUseTextureModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\纹理\使用</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RETranslateModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RERotateModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REProjectionModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\projection</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REViewModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\view</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RESetUniformMat4Model.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\mat4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REFPSCamera.h">
+      <Filter>07节点编辑器扩展\4_相机</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RETimerModel.h">
+      <Filter>07节点编辑器扩展\5_Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REOpenGLModel.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\状态节点基类</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RELoopModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RELoopNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClInclude>
+    <ClInclude Include="循环与分支实现说明.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\状态节点基类</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RELoopEndNode.hpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RELoopEndModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\0_流程控制\循环</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RESinModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\计算\sin</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RESetUniformVec3Model.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\vec3</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\REScaleModel.h">
+      <Filter>07节点编辑器扩展\1_节点模型\变换\scale</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NodeData\注意事项.readme">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\00值设置注意事项</Filter>
+    </None>
+  </ItemGroup>
+</Project>

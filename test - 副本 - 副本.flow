@@ -1,0 +1,523 @@
+{
+    "connections": [
+        {
+            "inPortIndex": 1,
+            "intNodeId": 15,
+            "outNodeId": 6,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 14,
+            "outNodeId": 13,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 0,
+            "outNodeId": 1,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 5,
+            "outNodeId": 4,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 2,
+            "outNodeId": 0,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 2,
+            "outNodeId": 3,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 4,
+            "outNodeId": 2,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 5,
+            "outNodeId": 2,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 4,
+            "outNodeId": 2,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 13,
+            "outNodeId": 20,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 7,
+            "outNodeId": 6,
+            "outPortIndex": 2
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 8,
+            "outNodeId": 6,
+            "outPortIndex": 3
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 10,
+            "outNodeId": 2,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 20,
+            "outNodeId": 19,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 13,
+            "outNodeId": 12,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 11,
+            "outNodeId": 5,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 11,
+            "outNodeId": 2,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 6,
+            "outNodeId": 11,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 0,
+            "outNodeId": 13,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 23,
+            "outNodeId": 22,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 15,
+            "outNodeId": 16,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 23,
+            "outNodeId": 14,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 15,
+            "outNodeId": 17,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 18,
+            "outNodeId": 10,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 24,
+            "outNodeId": 15,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 14,
+            "outNodeId": 21,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 23,
+            "outNodeId": 20,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 24,
+            "outNodeId": 25,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 24,
+            "outNodeId": 26,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 24,
+            "outNodeId": 6,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 9,
+            "outNodeId": 6,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 14,
+            "outNodeId": 24,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 10,
+            "outNodeId": 23,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 15,
+            "outNodeId": 9,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 9,
+            "outNodeId": 6,
+            "outPortIndex": 1
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "glClearColor"
+            },
+            "position": {
+                "x": -547,
+                "y": -276
+            }
+        },
+        {
+            "id": 8,
+            "internal-data": {
+                "model-name": "文件内容"
+            },
+            "position": {
+                "x": 463.7830188679245,
+                "y": 643.2400419287212
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.20000000298023224,
+                "y": 0.30000001192092896,
+                "z": 0.30000001192092896
+            },
+            "position": {
+                "x": -610,
+                "y": -448
+            }
+        },
+        {
+            "id": 2,
+            "internal-data": {
+                "model-name": "createVertex"
+            },
+            "position": {
+                "x": -196,
+                "y": -261
+            }
+        },
+        {
+            "id": 3,
+            "internal-data": {
+                "model-name": "floatArray",
+                "value": "0.5,  0.5, 0.0,   1.0, 0.0, 0.0,   1.0, 1.0,\n0.5, -0.5, 0.0,   0.0, 1.0, 0.0,   1.0, 0.0,\n-0.5, -0.5, 0.0,  0.0, 0.0, 1.0,   0.0, 0.0,\n\n0.5,  0.5, 0.0,   1.0, 0.0, 0.0,   1.0, 1.0,\n-0.5, -0.5, 0.0,  0.0, 0.0, 1.0,   0.0, 0.0,\n-0.5,  0.5, 0.0,  1.0, 1.0, 0.0,   0.0, 1.0"
+            },
+            "position": {
+                "x": -285,
+                "y": -104
+            }
+        },
+        {
+            "id": 4,
+            "internal-data": {
+                "byteSize": 32,
+                "count": 3,
+                "location": 0,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 0,
+                "type": 5126
+            },
+            "position": {
+                "x": 211,
+                "y": -304
+            }
+        },
+        {
+            "id": 5,
+            "internal-data": {
+                "byteSize": 32,
+                "count": 3,
+                "location": 1,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 12,
+                "type": 5126
+            },
+            "position": {
+                "x": 214,
+                "y": -14
+            }
+        },
+        {
+            "id": 6,
+            "internal-data": {
+                "fragmentShaderPath": "D:/0001code/RenderEditor/shaderCode/test.frag",
+                "model-name": "createShader",
+                "vertexShaderPath": "D:/0001code/RenderEditor/shaderCode/test.vert"
+            },
+            "position": {
+                "x": -487.7246692245573,
+                "y": 314.17004410339234
+            }
+        },
+        {
+            "id": 7,
+            "internal-data": {
+                "model-name": "文件内容"
+            },
+            "position": {
+                "x": 449.12054507337535,
+                "y": 375.36058700209657
+            }
+        },
+        {
+            "id": 9,
+            "internal-data": {
+                "model-name": "useShader"
+            },
+            "position": {
+                "x": -704.928565491114,
+                "y": 551.6371556680535
+            }
+        },
+        {
+            "id": 10,
+            "internal-data": {
+                "mode": 4,
+                "model-name": "glDrawArrays",
+                "pointCount": 6,
+                "startIndex": 0
+            },
+            "position": {
+                "x": 32.060880503144816,
+                "y": 896.4427672955974
+            }
+        },
+        {
+            "id": 11,
+            "internal-data": {
+                "byteSize": 32,
+                "count": 2,
+                "location": 2,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 24,
+                "type": 5126
+            },
+            "position": {
+                "x": 752.4119496855346,
+                "y": -278.12893081761
+            }
+        },
+        {
+            "id": 12,
+            "internal-data": {
+                "imagePath": "C:/Users/北顾/Desktop/awesomeface.png",
+                "model-name": "图片加载"
+            },
+            "position": {
+                "x": -1349.197796381956,
+                "y": 50.03283979478613
+            }
+        },
+        {
+            "id": 13,
+            "internal-data": {
+                "model-name": "createTexture"
+            },
+            "position": {
+                "x": -765.6848955213983,
+                "y": 162.11600557963777
+            }
+        },
+        {
+            "id": 14,
+            "internal-data": {
+                "model-name": "useTexture"
+            },
+            "position": {
+                "x": -266.51055608813147,
+                "y": 915.4582628025696
+            }
+        },
+        {
+            "id": 15,
+            "internal-data": {
+                "model-name": "uniform_int",
+                "valueTime": 0
+            },
+            "position": {
+                "x": -846.4316290686796,
+                "y": 729.3281057269232
+            }
+        },
+        {
+            "id": 16,
+            "internal-data": {
+                "model-name": "int",
+                "value": 1
+            },
+            "position": {
+                "x": -1106.3849015497183,
+                "y": 921.2862868417806
+            }
+        },
+        {
+            "id": 17,
+            "internal-data": {
+                "model-name": "string",
+                "value": "texture1"
+            },
+            "position": {
+                "x": -1309.010729067051,
+                "y": 1044.3788600638625
+            }
+        },
+        {
+            "id": 18,
+            "internal-data": {
+                "model-name": "OpenGL窗口"
+            },
+            "position": {
+                "x": 788.92944136145,
+                "y": 983.8230780614131
+            }
+        },
+        {
+            "id": 19,
+            "internal-data": {
+                "imagePath": "C:/Users/北顾/Desktop/container.jpg",
+                "model-name": "图片加载"
+            },
+            "position": {
+                "x": -1448.4502955839544,
+                "y": 392.89214267714766
+            }
+        },
+        {
+            "id": 20,
+            "internal-data": {
+                "model-name": "createTexture"
+            },
+            "position": {
+                "x": -1066.4215301236864,
+                "y": 324.0907536369098
+            }
+        },
+        {
+            "id": 21,
+            "internal-data": {
+                "model-name": "int",
+                "value": 0
+            },
+            "position": {
+                "x": -494.28366336802446,
+                "y": 1081.811314514266
+            }
+        },
+        {
+            "id": 22,
+            "internal-data": {
+                "model-name": "int",
+                "value": 1
+            },
+            "position": {
+                "x": -488.85197475958466,
+                "y": 1220.3193740294817
+            }
+        },
+        {
+            "id": 23,
+            "internal-data": {
+                "model-name": "useTexture"
+            },
+            "position": {
+                "x": -265.2474603788116,
+                "y": 1103.3570126610773
+            }
+        },
+        {
+            "id": 24,
+            "internal-data": {
+                "model-name": "uniform_int",
+                "valueTime": 0
+            },
+            "position": {
+                "x": -886.4515808973802,
+                "y": 1032.4553706922427
+            }
+        },
+        {
+            "id": 25,
+            "internal-data": {
+                "model-name": "int",
+                "value": 0
+            },
+            "position": {
+                "x": -1084.599581333265,
+                "y": 1211.0492921377443
+            }
+        },
+        {
+            "id": 26,
+            "internal-data": {
+                "model-name": "string",
+                "value": "texture2"
+            },
+            "position": {
+                "x": -1390.9468188492717,
+                "y": 1195.4060289454376
+            }
+        }
+    ]
+}

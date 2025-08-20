@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>REVAOAttribEditorClass</class>
+ <widget class="QWidget" name="REVAOAttribEditorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>196</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>REVAOAttribEditor</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>着色器位置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QSpinBox" name="spinBox_location"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>顶点分量</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QSpinBox" name="spinBox_count">
+     <property name="maximum">
+      <number>999999999</number>
+     </property>
+     <property name="value">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>分量类型</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="comboBox_type">
+     <item>
+      <property name="text">
+       <string>GL_BYTE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_UNSIGNED_BYTE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_SHORT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_UNSIGNED_SHORT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_INT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_UNSIGNED_INT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_FLOAT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_2_BYTES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_3_BYTES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_4_BYTES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GL_DOUBLE</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>启用映射</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QComboBox" name="comboBox_map">
+     <item>
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>启用</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>顶点字节数</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QSpinBox" name="spinBox_byteSize">
+     <property name="maximum">
+      <number>999999999</number>
+     </property>
+     <property name="value">
+      <number>12</number>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>偏移地址</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QSpinBox" name="spinBox_stride">
+     <property name="maximum">
+      <number>999999999</number>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

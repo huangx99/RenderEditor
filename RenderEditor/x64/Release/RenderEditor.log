@@ -1,0 +1,5 @@
+﻿  REOpenGLWidget.cpp
+d:\0001code\rendereditor\rendereditor\nodedata\reopenglwidget.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\0001code\rendereditor\rendereditor\nodedata\reopenglwidget.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\0001code\rendereditor\rendereditor\nodedata\reopenglnode.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RenderEditor.vcxproj -> D:\0001code\RenderEditor\x64\Release\RenderEditor.exe
