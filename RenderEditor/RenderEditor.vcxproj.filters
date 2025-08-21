@@ -235,6 +235,9 @@
     <Filter Include="07节点编辑器扩展\1_节点模型\变换\scale">
       <UniqueIdentifier>{547afbde-88fc-4a19-9b3e-aeec9c28a459}</UniqueIdentifier>
     </Filter>
+    <Filter Include="08_服务">
+      <UniqueIdentifier>{dac453d1-d9ee-4ef8-9a20-19ca25981582}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="RenderEditor.qrc">
@@ -412,6 +415,9 @@
     </ClCompile>
     <ClCompile Include="NodeData\REScaleModel.cpp">
       <Filter>07节点编辑器扩展\1_节点模型\变换\scale</Filter>
+    </ClCompile>
+    <ClCompile Include="service\REOpenGLRenderService.cpp">
+      <Filter>08_服务</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -652,6 +658,9 @@
     </ClInclude>
     <ClInclude Include="NodeData\REScaleModel.h">
       <Filter>07节点编辑器扩展\1_节点模型\变换\scale</Filter>
+    </ClInclude>
+    <ClInclude Include="service\REOpenGLRenderService.h">
+      <Filter>08_服务</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

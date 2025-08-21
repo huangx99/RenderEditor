@@ -99,7 +99,7 @@ void RESetUniformVec3Model::setInData(std::shared_ptr<NodeData> data, PortIndex 
 		auto value = std::dynamic_pointer_cast<REVec3Data>(data);
 		auto param = _setUniformNode->getParam();
 		glm::vec3 vec3 = value->value();
-		param._value = QVector3D(vec3.x, vec3.y, vec3.y);
+		param._value = QVector3D(vec3.x, vec3.y, vec3.z);
 		_setUniformNode->setParam(param);
 	}
 }

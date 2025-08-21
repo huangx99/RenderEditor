@@ -24,6 +24,7 @@ public:
 private slots:
 	void on_pushButton_vertexPath_clicked(bool clicked = false);
 	void on_pushButton_fragmentPath_clicked(bool clicked = false);
+	void on_pushButton_Compile_clicked(bool clicked = false);
 	void on_lineEdit_vertexPath_textEdited(QString const &string);
 	void on_lineEdit_fragmentPath_textEdited(QString const &string);
 signals:

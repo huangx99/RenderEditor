@@ -37,10 +37,8 @@ public:
 
 	std::shared_ptr<NodeData> outData(PortIndex port) override;
 
-	QWidget *embeddedWidget() override { return _display; }
+	QWidget *embeddedWidget() override { return nullptr; }
 
 protected:
 	std::shared_ptr<REOpenGLNode> _data;
-
-	REOpenGLControlWidget *_display;
 };

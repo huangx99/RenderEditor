@@ -1,10 +1,8 @@
 #include "RenderEditor.h"
 
-#include <QtNodes/DataFlowGraphModel>
-#include <QtNodes/DataFlowGraphicsScene>
-#include <QtNodes/GraphicsView>
-#include <QtNodes/NodeData>
-#include <QtNodes/NodeDelegateModelRegistry>
+#include "service/REOpenGLRenderService.h"
+
+
 
 #include "NodeData/REVec3SourceDataModel.h"
 #include "NodeData/REOpenGLDisplayModel.h"
@@ -37,10 +35,7 @@
 #include "NodeData/RELoopEndModel.h"
 #include "NodeData/RESinModel.h"
 
-using QtNodes::DataFlowGraphicsScene;
-using QtNodes::DataFlowGraphModel;
-using QtNodes::GraphicsView;
-using QtNodes::NodeDelegateModelRegistry;
+
 
 static std::shared_ptr<NodeDelegateModelRegistry> registerDataModels()
 {
@@ -94,16 +89,24 @@ RenderEditor::~RenderEditor()
     delete ui;
 }
 
+void RenderEditor::save()
+{
+	_scene->save();
+}
+
 void RenderEditor::initView()
 {
 	std::shared_ptr<NodeDelegateModelRegistry> registry = registerDataModels();
 	DataFlowGraphModel* dataFlowGraphModel = new DataFlowGraphModel(registry);
 
-	DataFlowGraphicsScene *scene = new DataFlowGraphicsScene(*dataFlowGraphModel, this);
+	_scene = new DataFlowGraphicsScene(*dataFlowGraphModel, this);
 
-	scene->load();
+	_scene->load();
 
-	GraphicsView* view = new GraphicsView(scene);
+	GraphicsView* view = new GraphicsView(_scene);
 
-	ui->horizontalLayout_2->addWidget(view);
+	ui->tabWidget->addTab(view, "渲染管线编辑");
+
+
+	ui->tabWidget->addTab(REOpenGLRenderService::getInstance().getOpenGLWidget(), "渲染窗口");
 }

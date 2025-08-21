@@ -1,6 +1,12 @@
 {
     "connections": [
         {
+            "inPortIndex": 0,
+            "intNodeId": 36,
+            "outNodeId": 24,
+            "outPortIndex": 0
+        },
+        {
             "inPortIndex": 1,
             "intNodeId": 0,
             "outNodeId": 2,
@@ -44,12 +50,6 @@
         },
         {
             "inPortIndex": 1,
-            "intNodeId": 25,
-            "outNodeId": 5,
-            "outPortIndex": 0
-        },
-        {
-            "inPortIndex": 1,
             "intNodeId": 4,
             "outNodeId": 5,
             "outPortIndex": 0
@@ -63,13 +63,19 @@
         {
             "inPortIndex": 0,
             "intNodeId": 29,
-            "outNodeId": 24,
+            "outNodeId": 36,
             "outPortIndex": 0
         },
         {
             "inPortIndex": 1,
             "intNodeId": 13,
             "outNodeId": 14,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 33,
+            "outNodeId": 10,
             "outPortIndex": 0
         },
         {
@@ -83,6 +89,12 @@
             "intNodeId": 8,
             "outNodeId": 7,
             "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 33,
+            "outNodeId": 29,
+            "outPortIndex": 1
         },
         {
             "inPortIndex": 1,
@@ -116,14 +128,14 @@
         },
         {
             "inPortIndex": 0,
-            "intNodeId": 6,
-            "outNodeId": 9,
+            "intNodeId": 37,
+            "outNodeId": 39,
             "outPortIndex": 0
         },
         {
             "inPortIndex": 0,
-            "intNodeId": 30,
-            "outNodeId": 28,
+            "intNodeId": 6,
+            "outNodeId": 9,
             "outPortIndex": 0
         },
         {
@@ -151,6 +163,18 @@
             "outPortIndex": 0
         },
         {
+            "inPortIndex": 3,
+            "intNodeId": 31,
+            "outNodeId": 17,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 33,
+            "outNodeId": 34,
+            "outPortIndex": 0
+        },
+        {
             "inPortIndex": 2,
             "intNodeId": 15,
             "outNodeId": 16,
@@ -163,10 +187,22 @@
             "outPortIndex": 1
         },
         {
+            "inPortIndex": 0,
+            "intNodeId": 31,
+            "outNodeId": 28,
+            "outPortIndex": 0
+        },
+        {
             "inPortIndex": 1,
             "intNodeId": 27,
             "outNodeId": 29,
             "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 30,
+            "outNodeId": 33,
+            "outPortIndex": 0
         },
         {
             "inPortIndex": 0,
@@ -196,6 +232,12 @@
             "inPortIndex": 2,
             "intNodeId": 28,
             "outNodeId": 20,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 10,
+            "outNodeId": 38,
             "outPortIndex": 0
         },
         {
@@ -232,6 +274,42 @@
             "inPortIndex": 0,
             "intNodeId": 25,
             "outNodeId": 6,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 31,
+            "outNodeId": 32,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 31,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 33,
+            "outNodeId": 31,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 25,
+            "outNodeId": 35,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 36,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 38,
+            "outNodeId": 37,
             "outPortIndex": 0
         },
         {
@@ -338,9 +416,9 @@
         {
             "id": 7,
             "internal-data": {
-                "fragmentShaderPath": "D:/0001code/RenderEditor/shaderCode/light/lightPort.frag",
+                "fragmentShaderPath": "D:/myThinking/RenderEditor/shaderCode/light/lightPort.frag",
                 "model-name": "createShader",
-                "vertexShaderPath": "D:/0001code/RenderEditor/shaderCode/light/lightPort.vert"
+                "vertexShaderPath": "D:/myThinking/RenderEditor/shaderCode/light/lightPort.vert"
             },
             "position": {
                 "x": 547.7621760000001,
@@ -362,13 +440,13 @@
             "id": 10,
             "internal-data": {
                 "model-name": "vec3",
-                "x": 2,
-                "y": 0,
-                "z": -9
+                "x": 0.49000000953674316,
+                "y": -0.38999998569488525,
+                "z": 0.6499999761581421
             },
             "position": {
-                "x": 421.5000255698586,
-                "y": 557.1224442574568
+                "x": 441.25798052959226,
+                "y": 539.5598176265823
             }
         },
         {
@@ -406,9 +484,9 @@
             "id": 14,
             "internal-data": {
                 "model-name": "vec3",
-                "x": 0.5,
-                "y": 0.5,
-                "z": 0.5
+                "x": 0.10000000149011612,
+                "y": 0.10000000149011612,
+                "z": 0.10000000149011612
             },
             "position": {
                 "x": -2.741339505785106,
@@ -419,7 +497,7 @@
             "id": 15,
             "internal-data": {
                 "model-name": "uniform_vec3",
-                "valueTime": 0
+                "valueTime": 1
             },
             "position": {
                 "x": 865.2517194348507,
@@ -456,8 +534,8 @@
                 "model-name": "translate"
             },
             "position": {
-                "x": 1014.1114563186673,
-                "y": 1592.6247728677952
+                "x": 1057.4540660704026,
+                "y": 2197.5368480985358
             }
         },
         {
@@ -467,8 +545,8 @@
                 "value": "color"
             },
             "position": {
-                "x": 971.2213750627805,
-                "y": 1269.5607974831803
+                "x": 879.01758525069,
+                "y": 1230.044887563713
             }
         },
         {
@@ -480,8 +558,8 @@
                 "z": -1
             },
             "position": {
-                "x": 652.013489298259,
-                "y": 1765.5038272351424
+                "x": 595.4796504916477,
+                "y": 2220.601229628363
             }
         },
         {
@@ -501,19 +579,19 @@
             "id": 23,
             "internal-data": {
                 "model-name": "vec3",
-                "x": 0.8999999761581421,
-                "y": 0,
-                "z": 0.30000001192092896
+                "x": 1,
+                "y": 1,
+                "z": 0
             },
             "position": {
-                "x": 881.6372323940207,
-                "y": 1352.5900028834942
+                "x": 854.3785723106844,
+                "y": 1331.3684957045211
             }
         },
         {
             "id": 24,
             "internal-data": {
-                "byteSize": 12,
+                "byteSize": 24,
                 "count": 3,
                 "location": 0,
                 "model-name": "attribVAO",
@@ -522,8 +600,8 @@
                 "type": 5126
             },
             "position": {
-                "x": 391.707062723691,
-                "y": 1072.9332156935413
+                "x": 328.0425411867715,
+                "y": 956.5808142639987
             }
         },
         {
@@ -543,8 +621,8 @@
                 "value": "model"
             },
             "position": {
-                "x": 634.6714563186672,
-                "y": 1617.1047728677952
+                "x": 801.4462807981704,
+                "y": 2122.1403995401893
             }
         },
         {
@@ -561,7 +639,7 @@
             "id": 28,
             "internal-data": {
                 "model-name": "uniform_vec3",
-                "valueTime": 0
+                "valueTime": 1
             },
             "position": {
                 "x": 1305.523175753518,
@@ -571,9 +649,9 @@
         {
             "id": 29,
             "internal-data": {
-                "fragmentShaderPath": "D:/0001code/RenderEditor/shaderCode/light/cube.frag",
+                "fragmentShaderPath": "D:/myThinking/RenderEditor/shaderCode/light/cube.frag",
                 "model-name": "createShader",
-                "vertexShaderPath": "D:/0001code/RenderEditor/shaderCode/light/cube.vert"
+                "vertexShaderPath": "D:/myThinking/RenderEditor/shaderCode/light/cube.vert"
             },
             "position": {
                 "x": 1074.706141826585,
@@ -587,8 +665,110 @@
                 "valueTime": 1
             },
             "position": {
-                "x": 1275.9296953139578,
-                "y": 1464.3580737155191
+                "x": 1349.4236857625526,
+                "y": 2113.554989344772
+            }
+        },
+        {
+            "id": 31,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 0
+            },
+            "position": {
+                "x": 1321.0073667811498,
+                "y": 1469.8798089718928
+            }
+        },
+        {
+            "id": 32,
+            "internal-data": {
+                "model-name": "string",
+                "value": "lightColor"
+            },
+            "position": {
+                "x": 962.0174903591683,
+                "y": 1602.734330167429
+            }
+        },
+        {
+            "id": 33,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 1314.4117522537117,
+                "y": 1746.8956191242878
+            }
+        },
+        {
+            "id": 34,
+            "internal-data": {
+                "model-name": "string",
+                "value": "lightPos"
+            },
+            "position": {
+                "x": 932.8083403090859,
+                "y": 1737.4733126565195
+            }
+        },
+        {
+            "id": 35,
+            "internal-data": {
+                "model-name": "floatArray",
+                "value": "-0.5, -0.5, -0.5,  0.0,  0.0, -1.0,\n 0.5, -0.5, -0.5,  0.0,  0.0, -1.0,\n 0.5,  0.5, -0.5,  0.0,  0.0, -1.0,\n 0.5,  0.5, -0.5,  0.0,  0.0, -1.0,\n-0.5,  0.5, -0.5,  0.0,  0.0, -1.0,\n-0.5, -0.5, -0.5,  0.0,  0.0, -1.0,\n\n-0.5, -0.5,  0.5,  0.0,  0.0,  1.0,\n 0.5, -0.5,  0.5,  0.0,  0.0,  1.0,\n 0.5,  0.5,  0.5,  0.0,  0.0,  1.0,\n 0.5,  0.5,  0.5,  0.0,  0.0,  1.0,\n-0.5,  0.5,  0.5,  0.0,  0.0,  1.0,\n-0.5, -0.5,  0.5,  0.0,  0.0,  1.0,\n\n-0.5,  0.5,  0.5, -1.0,  0.0,  0.0,\n-0.5,  0.5, -0.5, -1.0,  0.0,  0.0,\n-0.5, -0.5, -0.5, -1.0,  0.0,  0.0,\n-0.5, -0.5, -0.5, -1.0,  0.0,  0.0,\n-0.5, -0.5,  0.5, -1.0,  0.0,  0.0,\n-0.5,  0.5,  0.5, -1.0,  0.0,  0.0,\n\n 0.5,  0.5,  0.5,  1.0,  0.0,  0.0,\n 0.5,  0.5, -0.5,  1.0,  0.0,  0.0,\n 0.5, -0.5, -0.5,  1.0,  0.0,  0.0,\n 0.5, -0.5, -0.5,  1.0,  0.0,  0.0,\n 0.5, -0.5,  0.5,  1.0,  0.0,  0.0,\n 0.5,  0.5,  0.5,  1.0,  0.0,  0.0,\n\n-0.5, -0.5, -0.5,  0.0, -1.0,  0.0,\n 0.5, -0.5, -0.5,  0.0, -1.0,  0.0,\n 0.5, -0.5,  0.5,  0.0, -1.0,  0.0,\n 0.5, -0.5,  0.5,  0.0, -1.0,  0.0,\n-0.5, -0.5,  0.5,  0.0, -1.0,  0.0,\n-0.5, -0.5, -0.5,  0.0, -1.0,  0.0,\n\n-0.5,  0.5, -0.5,  0.0,  1.0,  0.0,\n 0.5,  0.5, -0.5,  0.0,  1.0,  0.0,\n 0.5,  0.5,  0.5,  0.0,  1.0,  0.0,\n 0.5,  0.5,  0.5,  0.0,  1.0,  0.0,\n-0.5,  0.5,  0.5,  0.0,  1.0,  0.0,\n-0.5,  0.5, -0.5,  0.0,  1.0,  0.0"
+            },
+            "position": {
+                "x": -830.0506369902076,
+                "y": 1223.3365340403295
+            }
+        },
+        {
+            "id": 36,
+            "internal-data": {
+                "byteSize": 24,
+                "count": 3,
+                "location": 1,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 12,
+                "type": 5126
+            },
+            "position": {
+                "x": 296.80839006177666,
+                "y": 1413.3523781196136
+            }
+        },
+        {
+            "id": 37,
+            "internal-data": {
+                "model-name": "Timer"
+            },
+            "position": {
+                "x": -72.4458348523567,
+                "y": 836.420093295391
+            }
+        },
+        {
+            "id": 38,
+            "internal-data": {
+                "model-name": "sin"
+            },
+            "position": {
+                "x": 175.6262663087435,
+                "y": 840.8107499531096
+            }
+        },
+        {
+            "id": 39,
+            "internal-data": {
+                "model-name": "float",
+                "value": 0.1
+            },
+            "position": {
+                "x": -411.6240616611176,
+                "y": 908.8659281477477
             }
         }
     ]

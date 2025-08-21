@@ -18,7 +18,7 @@ unsigned int RETimerModel::nPorts(PortType portType) const
 	unsigned int result;
 
 	if (portType == PortType::In)
-		result = 0;
+		result = 1;
 	else
 		result = 1;
 
@@ -30,9 +30,29 @@ NodeDataType RETimerModel::dataType(PortType, PortIndex) const
 	return REFloatData().type();
 }
 
+void RETimerModel::setInData(std::shared_ptr<NodeData> data, PortIndex const index)
+{
+
+	auto numberData = std::dynamic_pointer_cast<REFloatData>(data);
+
+	if (!data) {
+		Q_EMIT dataInvalidated(0);
+		_speed = 1.0;
+
+		return;
+	}
+
+	if (index == 0)
+	{
+		_speed = numberData->value();
+	}
+
+	Q_EMIT dataUpdated(0);
+}
+
 std::shared_ptr<NodeData> RETimerModel::outData(PortIndex index)
 {
-	_count += 0.9;
+	_count += 0.9 * _speed;
 	_result->setValue(_count);
 	return std::static_pointer_cast<NodeData>(_result);
 }

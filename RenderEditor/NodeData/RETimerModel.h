@@ -33,7 +33,7 @@ public:
 
 	NodeDataType dataType(PortType portType, PortIndex portIndex) const override;
 
-	void setInData(std::shared_ptr<NodeData>, PortIndex const) override {}
+	void setInData(std::shared_ptr<NodeData>, PortIndex const) override;
 
 	std::shared_ptr<NodeData> outData(PortIndex port) override;
 
@@ -47,4 +47,6 @@ protected:
 	std::shared_ptr<REFloatData> _result;
 	float _count = 0.0;
 	QTimer* _timer;
+
+	float _speed = 1.0;
 };

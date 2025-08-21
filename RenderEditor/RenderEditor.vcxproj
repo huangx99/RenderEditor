@@ -168,6 +168,7 @@
     <ClCompile Include="REMesh.cpp" />
     <ClCompile Include="REObject.cpp" />
     <ClCompile Include="REShader.cpp" />
+    <ClCompile Include="service\REOpenGLRenderService.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <QtRcc Include="RenderEditor.qrc" />
     <QtUic Include="NodeData\RECreateShaderEditor.ui" />
@@ -187,6 +188,7 @@
     <ClInclude Include="NodeData\REScaleModel.h" />
     <ClInclude Include="NodeData\RESetUniformVec3Model.h" />
     <ClInclude Include="NodeData\RESinModel.h" />
+    <ClInclude Include="service\REOpenGLRenderService.h" />
     <ClInclude Include="循环与分支实现说明.h" />
     <QtMoc Include="NodeData\REVec3Editor.h" />
     <QtMoc Include="NodeData\REOpenGLWidget.h" />

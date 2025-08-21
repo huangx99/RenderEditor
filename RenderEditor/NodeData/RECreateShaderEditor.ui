@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
+    <width>533</width>
     <height>400</height>
    </rect>
   </property>
@@ -14,15 +14,24 @@
    <string>RECreateShaderEditor</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
-    <widget class="QLabel" name="label">
+   <item row="1" column="2">
+    <widget class="QPushButton" name="pushButton_fragmentPath">
+     <property name="minimumSize">
+      <size>
+       <width>35</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>35</width>
+       <height>30</height>
+      </size>
+     </property>
      <property name="text">
-      <string>顶点着色器</string>
+      <string>...</string>
      </property>
     </widget>
-   </item>
-   <item row="0" column="1">
-    <widget class="QLineEdit" name="lineEdit_vertexPath"/>
    </item>
    <item row="0" column="2">
     <widget class="QPushButton" name="pushButton_vertexPath">
@@ -43,6 +52,12 @@
      </property>
     </widget>
    </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit_fragmentPath"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit_vertexPath"/>
+   </item>
    <item row="1" column="0">
     <widget class="QLabel" name="label_2">
      <property name="text">
@@ -50,25 +65,17 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="1">
-    <widget class="QLineEdit" name="lineEdit_fragmentPath"/>
-   </item>
-   <item row="1" column="2">
-    <widget class="QPushButton" name="pushButton_fragmentPath">
-     <property name="minimumSize">
-      <size>
-       <width>35</width>
-       <height>30</height>
-      </size>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>35</width>
-       <height>30</height>
-      </size>
-     </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
      <property name="text">
-      <string>...</string>
+      <string>顶点着色器</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="pushButton_Compile">
+     <property name="text">
+      <string>编译&gt;&gt;</string>
      </property>
     </widget>
    </item>

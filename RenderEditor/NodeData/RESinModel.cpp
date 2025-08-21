@@ -30,6 +30,8 @@ void RESinModel::setInData(std::shared_ptr<NodeData> nodeData, PortIndex const p
 
 	if (!nodeData) {
 		Q_EMIT dataInvalidated(0);
+
+		return;
 	}
 
 	if (portIndex == 0)

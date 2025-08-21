@@ -2,10 +2,11 @@
 
 #include "REVec3Data.hpp"
 #include "REOpenGLNode.hpp"
+#include "..\service\REOpenGLRenderService.h"
 
 REOpenGLDisplayModel::REOpenGLDisplayModel()
 {
-	_display = new REOpenGLControlWidget();
+	
 }
 
 unsigned int REOpenGLDisplayModel::nPorts(PortType portType) const
@@ -32,10 +33,9 @@ NodeDataType REOpenGLDisplayModel::dataType(PortType portType, PortIndex port) c
 void REOpenGLDisplayModel::setInData(std::shared_ptr<NodeData> data, PortIndex const port)
 {
 	_data = std::dynamic_pointer_cast<REOpenGLNode>(data);
-	_display->update();
 	if (!_data)
 	{
-		_display->getOpenGLWidget()->clearNode();
+		REOpenGLRenderService::getInstance().getOpenGLWidget()->clearNode();
 		return;
 	}
 
@@ -46,9 +46,9 @@ void REOpenGLDisplayModel::setInData(std::shared_ptr<NodeData> data, PortIndex c
 		{
 			_data = _data->getPre();
 		}
-		_display->getOpenGLWidget()->setOpenGLNode(_data);
-		_display->getOpenGLWidget()->initializeNode();
-		_display->showOpenGLWidget();
+		REOpenGLRenderService::getInstance().getOpenGLWidget()->setOpenGLNode(_data);
+		REOpenGLRenderService::getInstance().getOpenGLWidget()->initializeNode();
+		//_display->showOpenGLWidget();
 		//_display->getOpenGLWidget()->update();
 	}
 	else

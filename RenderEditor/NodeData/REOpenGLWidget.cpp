@@ -7,7 +7,7 @@ REOpenGLWidget::REOpenGLWidget(QWidget *parent)
 {
 	_context = std::make_shared<REOpenGLContext>();
 
-	//setFocusPolicy(Qt::StrongFocus); // 允许键盘事件
+	setFocusPolicy(Qt::StrongFocus); // 允许键盘事件
 	//setMouseTracking(true);          // 鼠标追踪
 	//setCursor(Qt::BlankCursor);      // 隐藏鼠标光标
 }
@@ -109,6 +109,9 @@ void REOpenGLWidget::setOpenGLNode(std::shared_ptr<REOpenGLNode> node)
 
 void REOpenGLWidget::initializeNode()
 {
+	if (!this->isInitialized())
+		return;
+
 	//使用makeCurrent原因见上面对话
 	makeCurrent();
 	clearContext();
@@ -129,6 +132,8 @@ void REOpenGLWidget::initializeNode()
 
 void REOpenGLWidget::clearContext()
 {
+	if (!this->isInitialized())
+		return;
 	//glDeleteBuffers(...)       // 删除 VBO / EBO
 	//glDeleteVertexArrays(...)  // 删除 VAO
 	//glDeleteTextures(...)      // 删除纹理
@@ -196,6 +201,15 @@ void REOpenGLWidget::initializeGL()
 	//渲染帧数
 	_lastTime = QDateTime::currentMSecsSinceEpoch();
 	QCursor::setPos(mapToGlobal(QPoint(width() / 2, height() / 2)));
+
+	//在此处初始化节点（创建VAO、VBO、编译shader等）
+	//是因为将openGL界面剥离后，软件启动时openGL界面在第二个tab页
+	//此时initializeGL节点并未调用(initializeGL节点在第一次刷新才调用),所以会触发
+	//if (!this->isInitialized())
+		//return;
+	//导致界面数据并未创建
+	//所以当第一次切换到此tab页时，调用initializeGL，然后进行一次真正的initializeNode
+	initializeNode();
 }
 
 void REOpenGLWidget::resizeGL(int w, int h)
@@ -209,6 +223,9 @@ void REOpenGLWidget::resizeGL(int w, int h)
 
 void REOpenGLWidget::paintGL()
 {
+	if (!this->isInitialized())
+		return;
+
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	//----相机逻辑----------------------------------------

@@ -7,6 +7,7 @@ REFloatSourceDataModel::REFloatSourceDataModel()
 	_editor = new QDoubleSpinBox();
 	_editor->setMaximum(99999999999);
 	_editor->setMinimum(-99999999999);
+	_editor->setDecimals(6);
 	_editor->setValue(0.);
 	_editor->adjustSize();
 	connect(_editor, QOverload<double>::of(&QDoubleSpinBox::valueChanged), this, &REFloatSourceDataModel::onValueChanged);

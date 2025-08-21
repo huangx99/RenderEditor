@@ -70,6 +70,11 @@ void RECreateShaderEditor::on_pushButton_fragmentPath_clicked(bool clicked)
 	}
 }
 
+void RECreateShaderEditor::on_pushButton_Compile_clicked(bool clicked)
+{
+	emit dataUpdate();
+}
+
 void RECreateShaderEditor::on_lineEdit_vertexPath_textEdited(QString const & string)
 {
 	if (_param.vertexShaderPath != string)
