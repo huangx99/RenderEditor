@@ -7,13 +7,15 @@ REFPSCamera::REFPSCamera(QVector3D startPos, float startYaw, float startPitch)
 	updateCameraVectors();
 }
 
-QMatrix4x4 REFPSCamera::getViewMatrix() const {
+QMatrix4x4 REFPSCamera::getViewMatrix() const 
+{
 	QMatrix4x4 view;
 	view.lookAt(position, position + front, up);
 	return view;
 }
 
-void REFPSCamera::processKeyboard(Qt::Key key, float deltaTime) {
+void REFPSCamera::processKeyboard(Qt::Key key, float deltaTime) 
+{
 	float velocity = movementSpeed * deltaTime;
 	if (key == Qt::Key_W) position += front * velocity;
 	if (key == Qt::Key_S) position -= front * velocity;
@@ -21,7 +23,8 @@ void REFPSCamera::processKeyboard(Qt::Key key, float deltaTime) {
 	if (key == Qt::Key_D) position += right * velocity;
 }
 
-void REFPSCamera::processMouseMovement(float xoffset, float yoffset, bool constrainPitch) {
+void REFPSCamera::processMouseMovement(float xoffset, float yoffset, bool constrainPitch) 
+{
 	xoffset *= mouseSensitivity;
 	yoffset *= mouseSensitivity;
 
@@ -35,7 +38,8 @@ void REFPSCamera::processMouseMovement(float xoffset, float yoffset, bool constr
 	updateCameraVectors();
 }
 
-void REFPSCamera::updateCameraVectors() {
+void REFPSCamera::updateCameraVectors() 
+{
 	QVector3D f;
 	f.setX(cos(qDegreesToRadians(yaw)) * cos(qDegreesToRadians(pitch)));
 	f.setY(sin(qDegreesToRadians(pitch)));

@@ -241,6 +241,7 @@ void REOpenGLWidget::paintGL()
 		shader.second->bind();
 		shader.second->setUniformValue("view", view);
 		shader.second->setUniformValue("projection", _projection);
+		shader.second->setUniformValue("viewPos", camera.position);
 	}
 
 	//----相机逻辑end----------------------------------------

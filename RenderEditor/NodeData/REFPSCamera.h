@@ -4,7 +4,8 @@
 #include <QtMath>
 #include <Qt>
 
-class REFPSCamera {
+class REFPSCamera 
+{
 public:
 	REFPSCamera(QVector3D startPos = { 0.0f, 0.0f, 3.0f },
 		float startYaw = -90.0f,
