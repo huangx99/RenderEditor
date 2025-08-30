@@ -143,6 +143,7 @@
     <ClCompile Include="NodeData\REProjectionModel.cpp" />
     <ClCompile Include="NodeData\RERotateModel.cpp" />
     <ClCompile Include="NodeData\REScaleModel.cpp" />
+    <ClCompile Include="NodeData\RESetUniformFloatModel.cpp" />
     <ClCompile Include="NodeData\RESetUniformIntModel.cpp" />
     <ClCompile Include="NodeData\RESetUniformMat4Model.cpp" />
     <ClCompile Include="NodeData\RESetUniformVec3Model.cpp" />
@@ -186,6 +187,7 @@
     <ClInclude Include="NodeData\RELoopEndModel.h" />
     <ClInclude Include="NodeData\RELoopEndNode.hpp" />
     <ClInclude Include="NodeData\REScaleModel.h" />
+    <ClInclude Include="NodeData\RESetUniformFloatModel.h" />
     <ClInclude Include="NodeData\RESetUniformVec3Model.h" />
     <ClInclude Include="NodeData\RESinModel.h" />
     <ClInclude Include="service\REOpenGLRenderService.h" />

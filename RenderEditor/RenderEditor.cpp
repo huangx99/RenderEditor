@@ -21,6 +21,7 @@
 #include "NodeData/RESetUniformIntModel.h"
 #include "NodeData/RESetUniformVec3Model.h"
 #include "NodeData/RESetUniformMat4Model.h"
+#include "NodeData/RESetUniformFloatModel.h"
 #include "NodeData/REFileDisplayDataModel.h"
 #include "NodeData/REImageLoaderModel.h"
 #include "NodeData/RECreateTextureModel.h"
@@ -62,6 +63,7 @@ static std::shared_ptr<NodeDelegateModelRegistry> registerDataModels()
 	ret->registerModel<RESetUniformMat4Model>("OpenGL");
 	ret->registerModel<RESetUniformVec3Model>("OpenGL");
 	ret->registerModel<RECreateTextureModel>("OpenGL");
+	ret->registerModel<RESetUniformFloatModel>("OpenGL");
 	ret->registerModel<REUseTextureModel>("OpenGL");
 	ret->registerModel<RETranslateModel>("变换");
 	ret->registerModel<RERotateModel>("变换");

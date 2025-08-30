@@ -5,6 +5,10 @@
 REIntSourceDataModel::REIntSourceDataModel()
 {
 	_editor = new QSpinBox();
+	
+	_editor->setValue(0);
+	_editor->setMinimum(-9999999);
+	_editor->setMaximum(9999999);
 	_editor->adjustSize();
 	connect(_editor, QOverload<int>::of(&QSpinBox::valueChanged), this, &REIntSourceDataModel::onValueChanged);
 }

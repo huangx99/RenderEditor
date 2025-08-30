@@ -1,0 +1,1249 @@
+{
+    "connections": [
+        {
+            "inPortIndex": 0,
+            "intNodeId": 33,
+            "outNodeId": 28,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 36,
+            "outNodeId": 24,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 0,
+            "outNodeId": 2,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 74,
+            "outNodeId": 70,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 3,
+            "outNodeId": 4,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 6,
+            "outNodeId": 4,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 19,
+            "outNodeId": 21,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 56,
+            "outNodeId": 57,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 3,
+            "outNodeId": 4,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 15,
+            "outNodeId": 17,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 4,
+            "outNodeId": 0,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 4,
+            "outNodeId": 5,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 7,
+            "outNodeId": 3,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 63,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 13,
+            "outNodeId": 14,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 33,
+            "outNodeId": 10,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 9,
+            "outNodeId": 7,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 8,
+            "outNodeId": 7,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 33,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 8,
+            "outNodeId": 7,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 65,
+            "outNodeId": 64,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 9,
+            "outNodeId": 11,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 12,
+            "outNodeId": 10,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 58,
+            "outNodeId": 56,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 77,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 28,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 9,
+            "outNodeId": 12,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 37,
+            "outNodeId": 39,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 22,
+            "outNodeId": 65,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 6,
+            "outNodeId": 9,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 12,
+            "outNodeId": 13,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 15,
+            "outNodeId": 8,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 24,
+            "outNodeId": 25,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 9,
+            "outNodeId": 15,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 33,
+            "outNodeId": 34,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 15,
+            "outNodeId": 16,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 15,
+            "outNodeId": 7,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 58,
+            "outNodeId": 59,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 67,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 65,
+            "outNodeId": 63,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 27,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 30,
+            "outNodeId": 33,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 58,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 58,
+            "outNodeId": 60,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 28,
+            "outNodeId": 27,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 63,
+            "outNodeId": 58,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 30,
+            "outNodeId": 19,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 30,
+            "outNodeId": 26,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 30,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 28,
+            "outNodeId": 20,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 63,
+            "outNodeId": 62,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 78,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 10,
+            "outNodeId": 38,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 28,
+            "outNodeId": 23,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 24,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 22,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 27,
+            "outNodeId": 29,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 36,
+            "outNodeId": 25,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 38,
+            "outNodeId": 37,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 56,
+            "outNodeId": 51,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 56,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 63,
+            "outNodeId": 61,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 65,
+            "outNodeId": 66,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 65,
+            "outNodeId": 29,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 67,
+            "outNodeId": 36,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 29,
+            "outNodeId": 67,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 68,
+            "outNodeId": 69,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 73,
+            "outNodeId": 74,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 70,
+            "outNodeId": 71,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 70,
+            "outNodeId": 68,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 70,
+            "outNodeId": 68,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 73,
+            "outNodeId": 75,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 73,
+            "outNodeId": 74,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 74,
+            "outNodeId": 72,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 77,
+            "outNodeId": 76,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 77,
+            "outNodeId": 46,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 77,
+            "outNodeId": 30,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 78,
+            "outNodeId": 49,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 78,
+            "outNodeId": 80,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 78,
+            "outNodeId": 77,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 56,
+            "outNodeId": 78,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 25,
+            "outNodeId": 35,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 68,
+            "outNodeId": 6,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 25,
+            "outNodeId": 73,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 1,
+            "outNodeId": 22,
+            "outPortIndex": 0
+        }
+    ],
+    "nodes": [
+        {
+            "id": 64,
+            "internal-data": {
+                "model-name": "string",
+                "value": "light.specular"
+            },
+            "position": {
+                "x": 1946.5135209966252,
+                "y": 2639.1563200030696
+            }
+        },
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "glClearColor"
+            },
+            "position": {
+                "x": -604.1006877739401,
+                "y": -636.4906189965462
+            }
+        },
+        {
+            "id": 72,
+            "internal-data": {
+                "imagePath": "D:/myThinking/RenderEditor/container2_specular.png",
+                "model-name": "图片加载"
+            },
+            "position": {
+                "x": -195.79669085787592,
+                "y": 2064.4386770797796
+            }
+        },
+        {
+            "id": 8,
+            "internal-data": {
+                "model-name": "useShader"
+            },
+            "position": {
+                "x": 1382.5105919999996,
+                "y": -187.61932799999994
+            }
+        },
+        {
+            "id": 65,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 2410.3550302857584,
+                "y": 2553.834303244199
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "model-name": "OpenGL窗口"
+            },
+            "position": {
+                "x": 2352.8101522752895,
+                "y": 235.58364298835107
+            }
+        },
+        {
+            "id": 66,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "position": {
+                "x": 1949.6161397878573,
+                "y": 2766.3636904435675
+            }
+        },
+        {
+            "id": 2,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": -682.515208218524,
+                "y": -797.2751432138147
+            }
+        },
+        {
+            "id": 3,
+            "internal-data": {
+                "byteSize": 12,
+                "count": 3,
+                "location": 0,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 0,
+                "type": 5126
+            },
+            "position": {
+                "x": 14.800000000000239,
+                "y": -152.92799999999988
+            }
+        },
+        {
+            "id": 67,
+            "internal-data": {
+                "byteSize": 32,
+                "count": 2,
+                "location": 2,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 24,
+                "type": 5126
+            },
+            "position": {
+                "x": 328.9997629787657,
+                "y": 1706.3911151625941
+            }
+        },
+        {
+            "id": 4,
+            "internal-data": {
+                "model-name": "createVertex"
+            },
+            "position": {
+                "x": -190.81599999999986,
+                "y": 241.36799999999994
+            }
+        },
+        {
+            "id": 68,
+            "internal-data": {
+                "model-name": "createTexture"
+            },
+            "position": {
+                "x": -665.0855850027983,
+                "y": 1872.4558298326165
+            }
+        },
+        {
+            "id": 5,
+            "internal-data": {
+                "model-name": "floatArray",
+                "value": "-0.5, -0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5,  0.5, -0.5,\n 0.5,  0.5, -0.5,\n-0.5,  0.5, -0.5,\n-0.5, -0.5, -0.5,\n\n-0.5, -0.5,  0.5,\n 0.5, -0.5,  0.5,\n 0.5,  0.5,  0.5,\n 0.5,  0.5,  0.5,\n-0.5,  0.5,  0.5,\n-0.5, -0.5,  0.5,\n\n-0.5,  0.5,  0.5,\n-0.5,  0.5, -0.5,\n-0.5, -0.5, -0.5,\n-0.5, -0.5, -0.5,\n-0.5, -0.5,  0.5,\n-0.5,  0.5,  0.5,\n\n 0.5,  0.5,  0.5,\n 0.5,  0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5, -0.5,  0.5,\n 0.5,  0.5,  0.5,\n\n-0.5, -0.5, -0.5,\n 0.5, -0.5, -0.5,\n 0.5, -0.5,  0.5,\n 0.5, -0.5,  0.5,\n-0.5, -0.5,  0.5,\n-0.5, -0.5, -0.5,\n\n-0.5,  0.5, -0.5,\n 0.5,  0.5, -0.5,\n 0.5,  0.5,  0.5,\n 0.5,  0.5,  0.5,\n-0.5,  0.5,  0.5,\n-0.5,  0.5, -0.5,\n"
+            },
+            "position": {
+                "x": -982.3711952175818,
+                "y": 776.9439609971741
+            }
+        },
+        {
+            "id": 69,
+            "internal-data": {
+                "imagePath": "D:/myThinking/RenderEditor/container2.png",
+                "model-name": "图片加载"
+            },
+            "position": {
+                "x": -969.2185512587414,
+                "y": 2003.0199950295607
+            }
+        },
+        {
+            "id": 6,
+            "internal-data": {
+                "mode": 4,
+                "model-name": "glDrawArrays",
+                "pointCount": 36,
+                "startIndex": 0
+            },
+            "position": {
+                "x": 1270.4878079999999,
+                "y": 153.61228799999998
+            }
+        },
+        {
+            "id": 70,
+            "internal-data": {
+                "model-name": "useTexture"
+            },
+            "position": {
+                "x": -385.97712313561,
+                "y": 1966.7997039165787
+            }
+        },
+        {
+            "id": 7,
+            "internal-data": {
+                "fragmentShaderPath": "D:/myThinking/RenderEditor/shaderCode/MaterialTexture/lightPort.frag",
+                "model-name": "createShader",
+                "vertexShaderPath": "D:/myThinking/RenderEditor/shaderCode/MaterialTexture/lightPort.vert"
+            },
+            "position": {
+                "x": 547.7621760000001,
+                "y": -381.92947199999986
+            }
+        },
+        {
+            "id": 71,
+            "internal-data": {
+                "model-name": "int",
+                "value": 0
+            },
+            "position": {
+                "x": -815.2640945662367,
+                "y": 2293.620419200619
+            }
+        },
+        {
+            "id": 9,
+            "internal-data": {
+                "model-name": "uniform_mat4",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 835.6582389952903,
+                "y": 87.73330084772371
+            }
+        },
+        {
+            "id": 73,
+            "internal-data": {
+                "model-name": "useTexture"
+            },
+            "position": {
+                "x": 246.86336592331833,
+                "y": 2088.8527566026155
+            }
+        },
+        {
+            "id": 74,
+            "internal-data": {
+                "model-name": "createTexture"
+            },
+            "position": {
+                "x": -46.52915441096151,
+                "y": 1903.4844487156054
+            }
+        },
+        {
+            "id": 10,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.49000000953674316,
+                "y": -0.6499999761581421,
+                "z": 0.6499999761581421
+            },
+            "position": {
+                "x": 441.25798052959226,
+                "y": 539.5598176265823
+            }
+        },
+        {
+            "id": 75,
+            "internal-data": {
+                "model-name": "int",
+                "value": 1
+            },
+            "position": {
+                "x": -180.96604852087023,
+                "y": 2302.348416191109
+            }
+        },
+        {
+            "id": 11,
+            "internal-data": {
+                "model-name": "string",
+                "value": "model"
+            },
+            "position": {
+                "x": 194.39999999999998,
+                "y": 240.47999999999993
+            }
+        },
+        {
+            "id": 76,
+            "internal-data": {
+                "model-name": "int",
+                "value": 0
+            },
+            "position": {
+                "x": 1050.280583059486,
+                "y": 2497.774596063032
+            }
+        },
+        {
+            "id": 12,
+            "internal-data": {
+                "model-name": "translate"
+            },
+            "position": {
+                "x": 573.8399999999998,
+                "y": 215.99999999999994
+            }
+        },
+        {
+            "id": 77,
+            "internal-data": {
+                "model-name": "uniform_int",
+                "valueTime": 0
+            },
+            "position": {
+                "x": 1362.9090659665812,
+                "y": 2337.262590488543
+            }
+        },
+        {
+            "id": 13,
+            "internal-data": {
+                "model-name": "Scale"
+            },
+            "position": {
+                "x": 165.98422941178745,
+                "y": 367.4895424935558
+            }
+        },
+        {
+            "id": 78,
+            "internal-data": {
+                "model-name": "uniform_int",
+                "valueTime": 0
+            },
+            "position": {
+                "x": 1376.0795508960339,
+                "y": 2664.268415509862
+            }
+        },
+        {
+            "id": 14,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.10000000149011612,
+                "y": 0.10000000149011612,
+                "z": 0.10000000149011612
+            },
+            "position": {
+                "x": -2.741339505785106,
+                "y": 546.5162088160164
+            }
+        },
+        {
+            "id": 15,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 865.2517194348507,
+                "y": -170.4283689795919
+            }
+        },
+        {
+            "id": 80,
+            "internal-data": {
+                "model-name": "int",
+                "value": 1
+            },
+            "position": {
+                "x": 982.5391645577974,
+                "y": 2849.2323970888333
+            }
+        },
+        {
+            "id": 16,
+            "internal-data": {
+                "model-name": "string",
+                "value": "color"
+            },
+            "position": {
+                "x": 530.9499187441131,
+                "y": -107.06397538461536
+            }
+        },
+        {
+            "id": 17,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "position": {
+                "x": 405.4748928413061,
+                "y": 21.301082521863464
+            }
+        },
+        {
+            "id": 19,
+            "internal-data": {
+                "model-name": "translate"
+            },
+            "position": {
+                "x": 1057.4540660704026,
+                "y": 2197.5368480985358
+            }
+        },
+        {
+            "id": 20,
+            "internal-data": {
+                "model-name": "string",
+                "value": "color"
+            },
+            "position": {
+                "x": 879.01758525069,
+                "y": 1230.044887563713
+            }
+        },
+        {
+            "id": 21,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": -1,
+                "y": 0,
+                "z": -1
+            },
+            "position": {
+                "x": 595.4796504916477,
+                "y": 2220.601229628363
+            }
+        },
+        {
+            "id": 22,
+            "internal-data": {
+                "mode": 4,
+                "model-name": "glDrawArrays",
+                "pointCount": 36,
+                "startIndex": 0
+            },
+            "position": {
+                "x": 3359.7468750614903,
+                "y": 1551.9433308960158
+            }
+        },
+        {
+            "id": 23,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "position": {
+                "x": 854.3785723106844,
+                "y": 1331.3684957045211
+            }
+        },
+        {
+            "id": 24,
+            "internal-data": {
+                "byteSize": 32,
+                "count": 3,
+                "location": 0,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 0,
+                "type": 5126
+            },
+            "position": {
+                "x": 328.0425411867715,
+                "y": 956.5808142639987
+            }
+        },
+        {
+            "id": 25,
+            "internal-data": {
+                "model-name": "createVertex"
+            },
+            "position": {
+                "x": 2.429957255036527,
+                "y": 1435.5268866260842
+            }
+        },
+        {
+            "id": 26,
+            "internal-data": {
+                "model-name": "string",
+                "value": "model"
+            },
+            "position": {
+                "x": 801.4462807981704,
+                "y": 2122.1403995401893
+            }
+        },
+        {
+            "id": 27,
+            "internal-data": {
+                "model-name": "useShader"
+            },
+            "position": {
+                "x": 1822.7820483186679,
+                "y": 1189.0054448677956
+            }
+        },
+        {
+            "id": 28,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 1291.3557218453416,
+                "y": 1262.8662195209097
+            }
+        },
+        {
+            "id": 29,
+            "internal-data": {
+                "fragmentShaderPath": "D:/myThinking/RenderEditor/shaderCode/MaterialTexture/cube.frag",
+                "model-name": "createShader",
+                "vertexShaderPath": "D:/myThinking/RenderEditor/shaderCode/MaterialTexture/cube.vert"
+            },
+            "position": {
+                "x": 1074.706141826585,
+                "y": 855.4001963014992
+            }
+        },
+        {
+            "id": 30,
+            "internal-data": {
+                "model-name": "uniform_mat4",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 1349.4236857625526,
+                "y": 2113.554989344772
+            }
+        },
+        {
+            "id": 33,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 1314.4117522537117,
+                "y": 1746.8956191242878
+            }
+        },
+        {
+            "id": 34,
+            "internal-data": {
+                "model-name": "string",
+                "value": "light.position"
+            },
+            "position": {
+                "x": 896.6026247659681,
+                "y": 1858.6837516486962
+            }
+        },
+        {
+            "id": 35,
+            "internal-data": {
+                "model-name": "floatArray",
+                "value": "-0.5, -0.5, -0.5,  0.0,  0.0, -1.0,  0.0,  0.0,\n 0.5, -0.5, -0.5,  0.0,  0.0, -1.0,  1.0,  0.0,\n 0.5,  0.5, -0.5,  0.0,  0.0, -1.0,  1.0,  1.0,\n 0.5,  0.5, -0.5,  0.0,  0.0, -1.0,  1.0,  1.0,\n-0.5,  0.5, -0.5,  0.0,  0.0, -1.0,  0.0,  1.0,\n-0.5, -0.5, -0.5,  0.0,  0.0, -1.0,  0.0,  0.0,\n\n-0.5, -0.5,  0.5,  0.0,  0.0,  1.0,  0.0,  0.0,\n 0.5, -0.5,  0.5,  0.0,  0.0,  1.0,  1.0,  0.0,\n 0.5,  0.5,  0.5,  0.0,  0.0,  1.0,  1.0,  1.0,\n 0.5,  0.5,  0.5,  0.0,  0.0,  1.0,  1.0,  1.0,\n-0.5,  0.5,  0.5,  0.0,  0.0,  1.0,  0.0,  1.0,\n-0.5, -0.5,  0.5,  0.0,  0.0,  1.0,  0.0,  0.0,\n\n-0.5,  0.5,  0.5, -1.0,  0.0,  0.0,  1.0,  0.0,\n-0.5,  0.5, -0.5, -1.0,  0.0,  0.0,  1.0,  1.0,\n-0.5, -0.5, -0.5, -1.0,  0.0,  0.0,  0.0,  1.0,\n-0.5, -0.5, -0.5, -1.0,  0.0,  0.0,  0.0,  1.0,\n-0.5, -0.5,  0.5, -1.0,  0.0,  0.0,  0.0,  0.0,\n-0.5,  0.5,  0.5, -1.0,  0.0,  0.0,  1.0,  0.0,\n\n 0.5,  0.5,  0.5,  1.0,  0.0,  0.0,  1.0,  0.0,\n 0.5,  0.5, -0.5,  1.0,  0.0,  0.0,  1.0,  1.0,\n 0.5, -0.5, -0.5,  1.0,  0.0,  0.0,  0.0,  1.0,\n 0.5, -0.5, -0.5,  1.0,  0.0,  0.0,  0.0,  1.0,\n 0.5, -0.5,  0.5,  1.0,  0.0,  0.0,  0.0,  0.0,\n 0.5,  0.5,  0.5,  1.0,  0.0,  0.0,  1.0,  0.0,\n\n-0.5, -0.5, -0.5,  0.0, -1.0,  0.0,  0.0,  1.0,\n 0.5, -0.5, -0.5,  0.0, -1.0,  0.0,  1.0,  1.0,\n 0.5, -0.5,  0.5,  0.0, -1.0,  0.0,  1.0,  0.0,\n 0.5, -0.5,  0.5,  0.0, -1.0,  0.0,  1.0,  0.0,\n-0.5, -0.5,  0.5,  0.0, -1.0,  0.0,  0.0,  0.0,\n-0.5, -0.5, -0.5,  0.0, -1.0,  0.0,  0.0,  1.0,\n\n-0.5,  0.5, -0.5,  0.0,  1.0,  0.0,  0.0,  1.0,\n 0.5,  0.5, -0.5,  0.0,  1.0,  0.0,  1.0,  1.0,\n 0.5,  0.5,  0.5,  0.0,  1.0,  0.0,  1.0,  0.0,\n 0.5,  0.5,  0.5,  0.0,  1.0,  0.0,  1.0,  0.0,\n-0.5,  0.5,  0.5,  0.0,  1.0,  0.0,  0.0,  0.0,\n-0.5,  0.5, -0.5,  0.0,  1.0,  0.0,  0.0,  1.0"
+            },
+            "position": {
+                "x": -830.0506369902076,
+                "y": 1223.3365340403295
+            }
+        },
+        {
+            "id": 36,
+            "internal-data": {
+                "byteSize": 32,
+                "count": 3,
+                "location": 1,
+                "model-name": "attribVAO",
+                "openMap": false,
+                "stride": 12,
+                "type": 5126
+            },
+            "position": {
+                "x": 310.18876319727667,
+                "y": 1401.2838062719077
+            }
+        },
+        {
+            "id": 37,
+            "internal-data": {
+                "model-name": "Timer"
+            },
+            "position": {
+                "x": -72.4458348523567,
+                "y": 836.420093295391
+            }
+        },
+        {
+            "id": 38,
+            "internal-data": {
+                "model-name": "sin"
+            },
+            "position": {
+                "x": 175.6262663087435,
+                "y": 840.8107499531096
+            }
+        },
+        {
+            "id": 39,
+            "internal-data": {
+                "model-name": "float",
+                "value": 0.1
+            },
+            "position": {
+                "x": -411.6240616611176,
+                "y": 908.8659281477477
+            }
+        },
+        {
+            "id": 46,
+            "internal-data": {
+                "model-name": "string",
+                "value": "material.diffuse"
+            },
+            "position": {
+                "x": 899.788409923287,
+                "y": 2605.2053062122636
+            }
+        },
+        {
+            "id": 49,
+            "internal-data": {
+                "model-name": "string",
+                "value": "material.specular"
+            },
+            "position": {
+                "x": 968.4399984932172,
+                "y": 2760.1125450870777
+            }
+        },
+        {
+            "id": 51,
+            "internal-data": {
+                "model-name": "string",
+                "value": "material.shininess"
+            },
+            "position": {
+                "x": 935.0151912170354,
+                "y": 3071.3656885006594
+            }
+        },
+        {
+            "id": 56,
+            "internal-data": {
+                "model-name": "uniform_float",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 1428.3069701694794,
+                "y": 3042.4378278411873
+            }
+        },
+        {
+            "id": 57,
+            "internal-data": {
+                "model-name": "float",
+                "value": 200
+            },
+            "position": {
+                "x": 889.7588476355402,
+                "y": 3263.409571728751
+            }
+        },
+        {
+            "id": 58,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 2277.3221927640375,
+                "y": 1773.1466391888932
+            }
+        },
+        {
+            "id": 59,
+            "internal-data": {
+                "model-name": "string",
+                "value": "light.ambient"
+            },
+            "position": {
+                "x": 1813.4806834749043,
+                "y": 1858.4686559477639
+            }
+        },
+        {
+            "id": 60,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.20000000298023224,
+                "y": 0.20000000298023224,
+                "z": 0.20000000298023224
+            },
+            "position": {
+                "x": 1821.237230452984,
+                "y": 1988.7786451794934
+            }
+        },
+        {
+            "id": 61,
+            "internal-data": {
+                "model-name": "string",
+                "value": "light.diffuse"
+            },
+            "position": {
+                "x": 1904.4908346843667,
+                "y": 2234.4026328186665
+            }
+        },
+        {
+            "id": 62,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "position": {
+                "x": 1907.5934534755988,
+                "y": 2361.6100032591644
+            }
+        },
+        {
+            "id": 63,
+            "internal-data": {
+                "model-name": "uniform_vec3",
+                "valueTime": 1
+            },
+            "position": {
+                "x": 2368.3323439735,
+                "y": 2149.080616059796
+            }
+        }
+    ]
+}

@@ -419,6 +419,9 @@
     <ClCompile Include="service\REOpenGLRenderService.cpp">
       <Filter>08_服务</Filter>
     </ClCompile>
+    <ClCompile Include="NodeData\RESetUniformFloatModel.cpp">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\float</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="RenderEditor.h">
@@ -661,6 +664,9 @@
     </ClInclude>
     <ClInclude Include="service\REOpenGLRenderService.h">
       <Filter>08_服务</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData\RESetUniformFloatModel.h">
+      <Filter>07节点编辑器扩展\3_OpenGL状态节点\shader\值设置\float</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
