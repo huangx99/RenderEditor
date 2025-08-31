@@ -35,7 +35,7 @@ NodeDataType REScaleModel::dataType(PortType type, PortIndex index) const
 	{
 		if (index == 0)
 		{
-			return NodeDataType{ REMat4Data().type().id, QString::fromUtf8("rotate mat") };
+			return NodeDataType{ REMat4Data().type().id, QString::fromUtf8("scale mat") };
 		}
 	}
 	return REMat4Data().type();

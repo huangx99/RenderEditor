@@ -35,6 +35,7 @@
 #include "NodeData/RELoopModel.h"
 #include "NodeData/RELoopEndModel.h"
 #include "NodeData/RESinModel.h"
+#include "NodeData/RE3DModelModel.h"
 
 
 
@@ -73,6 +74,7 @@ static std::shared_ptr<NodeDelegateModelRegistry> registerDataModels()
 	ret->registerModel<RETimerModel>("Timer");
 	ret->registerModel<RELoopModel>("流程");
 	ret->registerModel<RELoopEndModel>("流程");
+	ret->registerModel<RE3DModelModel>("模型");
 
 	return ret;
 }

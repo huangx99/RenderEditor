@@ -1,0 +1,240 @@
+{
+    "connections": [
+        {
+            "inPortIndex": 2,
+            "intNodeId": 0,
+            "outNodeId": 1,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 1,
+            "outNodeId": 8,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 7,
+            "outNodeId": 1,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 7,
+            "outNodeId": 1,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 8,
+            "outNodeId": 9,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 11,
+            "outNodeId": 5,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 10,
+            "outNodeId": 1,
+            "outPortIndex": 1
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 10,
+            "outNodeId": 7,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 0,
+            "outNodeId": 10,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 12,
+            "outNodeId": 13,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 0,
+            "outNodeId": 2,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 2,
+            "intNodeId": 10,
+            "outNodeId": 6,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 12,
+            "outNodeId": 11,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 3,
+            "intNodeId": 10,
+            "outNodeId": 12,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 3,
+            "outNodeId": 0,
+            "outPortIndex": 0
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "3DModel"
+            },
+            "position": {
+                "x": 327.24383684252825,
+                "y": 56.92687658171193
+            }
+        },
+        {
+            "id": 8,
+            "internal-data": {
+                "model-name": "glClearColor"
+            },
+            "position": {
+                "x": -507.1343175748711,
+                "y": -223.2142414690599
+            }
+        },
+        {
+            "id": 9,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.5,
+                "y": 0.800000011920929,
+                "z": 0.30000001192092896
+            },
+            "position": {
+                "x": -608.6185045209388,
+                "y": -391.89510399694245
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "fragmentShaderPath": "D:/myThinking/RenderEditor/shaderCode/3dModel/model.frag",
+                "model-name": "createShader",
+                "vertexShaderPath": "D:/myThinking/RenderEditor/shaderCode/3dModel/model.vert"
+            },
+            "position": {
+                "x": -698,
+                "y": -104
+            }
+        },
+        {
+            "id": 2,
+            "internal-data": {
+                "model-name": "string",
+                "value": "D:/myThinking/RenderEditor/res/Barbara/Barbara.obj"
+            },
+            "position": {
+                "x": -204.48846613482092,
+                "y": 380.1018595661038
+            }
+        },
+        {
+            "id": 3,
+            "internal-data": {
+                "model-name": "OpenGL窗口"
+            },
+            "position": {
+                "x": 684.2464166957933,
+                "y": -10.75805927760652
+            }
+        },
+        {
+            "id": 5,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 1,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -1083.0209659028515,
+                "y": 148.18383922880014
+            }
+        },
+        {
+            "id": 6,
+            "internal-data": {
+                "model-name": "string",
+                "value": "model"
+            },
+            "position": {
+                "x": -1062.2661320925313,
+                "y": 44.221624978629194
+            }
+        },
+        {
+            "id": 7,
+            "internal-data": {
+                "model-name": "useShader"
+            },
+            "position": {
+                "x": -479.3592690844206,
+                "y": 86.58233960475131
+            }
+        },
+        {
+            "id": 10,
+            "internal-data": {
+                "model-name": "uniform_mat4",
+                "valueTime": 0
+            },
+            "position": {
+                "x": -609.7164848313689,
+                "y": 202.39291929225635
+            }
+        },
+        {
+            "id": 11,
+            "internal-data": {
+                "model-name": "translate"
+            },
+            "position": {
+                "x": -1045.2492760832135,
+                "y": 330.30906926471994
+            }
+        },
+        {
+            "id": 12,
+            "internal-data": {
+                "model-name": "Scale"
+            },
+            "position": {
+                "x": -688.2470036126798,
+                "y": 463.88931897043625
+            }
+        },
+        {
+            "id": 13,
+            "internal-data": {
+                "model-name": "vec3",
+                "x": 0.10000000149011612,
+                "y": 0.10000000149011612,
+                "z": 0.10000000149011612
+            },
+            "position": {
+                "x": -1193.3227574449775,
+                "y": 511.57887512627553
+            }
+        }
+    ]
+}

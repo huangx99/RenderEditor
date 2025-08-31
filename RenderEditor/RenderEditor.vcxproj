@@ -61,7 +61,7 @@
     <LibraryPath>..\3rd\assimp\lib\Debug;..\3rd\QtNodes\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <IncludePath>..\3rd\glm-1.0.1;..\3rd\assimp;..\3rd\QtNodes\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\3rd\glm-1.0.1;..\3rd\assimp\include;..\3rd\QtNodes\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\3rd\assimp\lib\Release;..\3rd\QtNodes\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -112,6 +112,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="NodeData\Mesh.cpp" />
+    <ClCompile Include="NodeData\Model.cpp" />
+    <ClCompile Include="NodeData\RE3DModelModel.cpp" />
     <ClCompile Include="NodeData\RECreateShaderEditor.cpp" />
     <ClCompile Include="NodeData\RECreateShaderModel.cpp" />
     <ClCompile Include="NodeData\RECreateTextureModel.cpp" />
@@ -165,10 +168,6 @@
     </ClCompile>
     <ClCompile Include="NodeData\REViewModel.cpp" />
     <ClCompile Include="REI3DObject.cpp" />
-    <ClCompile Include="REIDrawObject.cpp" />
-    <ClCompile Include="REMesh.cpp" />
-    <ClCompile Include="REObject.cpp" />
-    <ClCompile Include="REShader.cpp" />
     <ClCompile Include="service\REOpenGLRenderService.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <QtRcc Include="RenderEditor.qrc" />
@@ -184,6 +183,10 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="NodeData\Mesh.h" />
+    <ClInclude Include="NodeData\Model.h" />
+    <ClInclude Include="NodeData\RE3DModelModel.h" />
+    <ClInclude Include="NodeData\RE3DModelNode.hpp" />
     <ClInclude Include="NodeData\RELoopEndModel.h" />
     <ClInclude Include="NodeData\RELoopEndNode.hpp" />
     <ClInclude Include="NodeData\REScaleModel.h" />
@@ -250,11 +253,6 @@
     <ClInclude Include="NodeData\REViewModel.h" />
     <ClInclude Include="REBaseType.h" />
     <ClInclude Include="REI3DObject.h" />
-    <ClInclude Include="REIDrawObject.h" />
-    <ClInclude Include="REMesh.h" />
-    <ClInclude Include="REObject.h" />
-    <ClInclude Include="REObjectStruct.h" />
-    <ClInclude Include="REShader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
